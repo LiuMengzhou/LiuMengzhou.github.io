@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-03-14T04:36:51.726Z</updated>
+  <updated>2016-03-14T04:42:07.742Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>今天开始也为时未晚</title>
-    <link href="http://yoursite.com/2016/03/14/%E4%BB%8A%E5%A4%A9%E5%BC%80%E5%A7%8B%E4%B9%9F%E4%B8%BA%E6%97%B6%E6%9C%AA%E6%99%9A/"/>
-    <id>http://yoursite.com/2016/03/14/今天开始也为时未晚/</id>
-    <published>2016-03-14T04:36:51.000Z</published>
-    <updated>2016-03-14T04:36:51.726Z</updated>
+    <title>今天开始,为时未晚</title>
+    <link href="http://yoursite.com/2016/03/14/%E4%BB%8A%E5%A4%A9%E5%BC%80%E5%A7%8B-%E4%B8%BA%E6%97%B6%E6%9C%AA%E6%99%9A/"/>
+    <id>http://yoursite.com/2016/03/14/今天开始-为时未晚/</id>
+    <published>2016-03-14T04:42:07.000Z</published>
+    <updated>2016-03-14T04:42:07.742Z</updated>
     
     <content type="html"></content>
     
