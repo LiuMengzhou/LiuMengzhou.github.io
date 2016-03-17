@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>LiuMengzhou&#39;s Blog</title>
+  <title>GeeookLiu&#39;s Blog</title>
   <subtitle>言之命至，人随己愿！</subtitle>
   <link href="/atom.xml" rel="self"/>
   
@@ -9,7 +9,7 @@
   <id>http://geeookliu.me/</id>
   
   <author>
-    <name>刘梦舟</name>
+    <name>GeeookLiu</name>
     
   </author>
   
