@@ -196,12 +196,22 @@
         <p>&#8195;&#8195;大概是上周日的时候听见学姐学长在讨论PAT，才知道这么个厉害的东西。先大致介绍一下PAT吧。Programming Ability Test是计算机程序设计能力考试，旨在通过统一组织的在线考试及自动评测方法客观地评判考生的算法设计与程序设计实现能力，科学的评价计算机程序设计人才，为企业选拔人才提供参考标准。每年分春、秋、冬季组织3次统一考试，大约分别在每年2-3月、8-9月、11-12月举行。每场考试分三个难度级别：顶级(Top Level)、甲级(Advanced Level)、乙级(Basic Level)。</p>
 <p>&#8195;&#8195;不说话，看图</p>
 <p><img src="\images\PAT企业.png" alt="PAT企业"></p>
-<p>&#8195;&#8195;这一下子就吸引了我，我觉得有必要试一试。于是说干就干，开始刷题。看着PAT的刷题提交系统，我想起来本科时去电子科大找同学玩的时候，他舍友也在刷题，不过他是搞ACM，用的<a href="https://leetcode.com/" target="_blank" rel="external">letcode</a>，我是比不上了。不过以后可以试试letcode，现在的任务是先过了PAT甲级。大概规划是这样的：秋季1刷甲级，如果lucky enough成绩不错，冬季1刷乙级，然后很大可能需要明年3月2刷乙级，毕竟准备的时间只有大概3个月，毕竟我这么菜，最后争取明年9月试试T。不过，如果秋季1刷甲级成绩很低的话，那就冬季二战，然后明年两次考试就都准备乙级（辣么菜就不要去搞T了 = =、）。</p>
-<p>&#8195;&#8195;甲级官方练习题一共有55道，<a href="https://pta.patest.cn/pta/test" target="_blank" rel="external">pta</a>题库基础编程50道，还有一些其他的题目大概70道，算起来175道题，差不多也就剩175天，所以，具体的安排就是：每天晚上1.5-2小时用来做题，每天至少一道。然后周末学习相关的算法知识，或者某天遇见一道很难的题，就白天抽空查查资料，必须弄清楚原理，每题亲自写一遍，运行测试一遍。</p>
+<p>&#8195;&#8195;这一下子就吸引了我，我觉得有必要试一试。于是说干就干，开始刷题。看着PAT的刷题提交系统，我想起来本科时去电子科大找同学玩的时候，他舍友也在刷题，不过他是搞ACM，用的<a href="https://leetcode.com/" target="_blank" rel="external">letcode</a>，我是比不上了。不过以后可以试试letcode，现在的任务是先过了PAT乙级。大概规划是这样的：秋季1刷乙级，如果lucky enough成绩不错，冬季1刷甲级，然后很大可能需要明年3月2刷甲级，毕竟准备的时间只有大概3个月，毕竟我这么菜，最后争取明年9月试试T。不过，如果秋季1刷乙级成绩很低的话，那就冬季二战，然后明年两次考试就都准备甲级（辣么菜就不要去搞T了 = =、）。</p>
+<p>&#8195;&#8195;乙级官方练习题一共有55道，<a href="https://pta.patest.cn/pta/test" target="_blank" rel="external">pta</a>题库基础编程50道，还有一些其他的题目大概70道，算起来175道题，差不多也就剩175天，所以，具体的安排就是：每天晚上1.5-2小时用来做题，每天至少一道。然后周末学习相关的算法知识，或者某天遇见一道很难的题，就白天抽空查查资料，必须弄清楚原理，每题亲自写一遍，运行测试一遍。</p>
 <p>&#8195;&#8195;这周做了9道题，感觉自己太笨了。不过还是小有成就感。</p>
 <p><img src="\images\passedtests.png" alt="passedtests"></p>
 <p>&#8195;&#8195;在荒废的周末深夜立flag，真不是滋味。今天看了小李子的荒野猎人，虽然我中途睡了，除了有点长以外确实是好片，其实我想说的是，信念可以支撑一个人活下去，那么区区一个考试也没啥，自勉。</p>
-<h2 id=""><a href="#" class="headerlink" title=""></a><img src="\images\sleepinhorse.png" alt="sleepinhorse"></h2><p>to be continued…</p>
+<h2 id=""><a href="#" class="headerlink" title=""></a><img src="\images\sleepinhorse.png" alt="sleepinhorse"></h2><h2 id="to-be-continued…"><a href="#to-be-continued…" class="headerlink" title="to be continued…"></a>to be continued…</h2><p>2016-03-22 update</p>
+<p>&#8195;&#8195;本来打算通过记录每道题的思考过程和其中的坎坷来巩固一下印象，不过出于精力和文章篇幅的关系（主要是没空）就算啦。先说说今天做的1010吧。</p>
+<blockquote>
+<ol>
+<li>一元多项式求导<br>设计函数求一元多项式的导数。（注：xn（n为整数）的一阶导数为n*xn-1。）<br>输入格式：以指数递降方式输入多项式非零项系数和指数（绝对值均为不超过1000的整数）。数字间以空格分隔。<br>输出格式：以与输入相同的格式输出导数多项式非零项的系数和指数。数字间以空格分隔，但结尾不能有多余空格。注意“零多项式”的指数和系数都是0，但是表示为“0 0”。<br>输入样例：<br>3 4 -5 2 6 1 -2 0<br>输出样例：<br>12 3 -10 1 6 0</li>
+</ol>
+</blockquote>
+<p>在写了40多分钟以后，我创造出了下面这坨屎：</p>
+<blockquote>
+<p>Scanner s  = new Scanner(System.in);<br>while(s.hasNext()) {<br>    String[] input = s.nextLine().split(“ “);<br>    int length = input.length;<br>    int[] coe = new int[length/2];<br>    int[] index = new int[length/2];<br>    List<integer> res = new ArrayList<integer>();<br>    List<integer> newIndex = new ArrayList<integer>();<br>    for(int i = 0;i &lt; length;i++) {<br>        if(i%2 == 0) {<br>            coe[i/2] = Integer.parseInt(input[i]);<br>        } else {<br>            index[(i - 1)/2] = Integer.parseInt(input[i]);<br>        }<br>    }<br>    for(int i = 0;i &lt; length/2;i++) {<br>        res.add(coe[i]*index[i]);<br>        newIndex.add(index[i] - 1);<br>    }<br>    if(res.get(0) == 0){<br>        System.out.print(“0 0”);<br>    } else {<br>        if(res.contains(0)) {<br>            res.remove(res.indexOf(0));<br>        }<br>        if(newIndex.contains(-1)) {<br>            newIndex.remove(newIndex.indexOf(-1));<br>        }<br>        for(int i = 0;i &lt; res.size();i++) {<br>            System.out.print(res.get(i) + “ “);<br>            if(i == res.size() - 1) {<br>                System.out.print(newIndex.get(i));<br>            } else {<br>                System.out.print(newIndex.get(i) + “ “);<br>            }<br>        }<br>    }<br>}</integer></integer></integer></integer></p>
+</blockquote>
 
       
     </div>
