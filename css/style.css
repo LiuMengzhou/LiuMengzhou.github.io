@@ -184,7 +184,7 @@ a {
 }
 .inner {
   width: 1000px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 .hide {
   display: none;
