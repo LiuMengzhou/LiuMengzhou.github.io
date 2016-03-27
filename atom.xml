@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://geeookliu.me/"/>
-  <updated>2016-03-27T02:12:17.559Z</updated>
+  <updated>2016-03-27T03:39:58.387Z</updated>
   <id>http://geeookliu.me/</id>
   
   <author>
@@ -16,15 +16,23 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>混乱的一周</title>
+    <title>This week（灌水文章，谨慎点击）</title>
     <link href="http://geeookliu.me/posts/life/2016-03-27-%E6%B7%B7%E4%B9%B1%E7%9A%84%E4%B8%80%E5%91%A8.html"/>
     <id>http://geeookliu.me/posts/life/2016-03-27-混乱的一周.html</id>
     <published>2016-03-26T17:00:28.000Z</published>
-    <updated>2016-03-27T02:12:17.559Z</updated>
+    <updated>2016-03-27T03:39:58.387Z</updated>
     
-    <content type="html"></content>
+    <content type="html">&lt;p&gt;&amp;#8195;&amp;#8195;这周过的真快，真是觉得啥也没干，也没遇见什么好玩的事，所以憋出一篇博客不比我小时候写日记或作文痛苦。不过既然已经在第一篇文章里立下了flag，就一定要坚持。顿时觉得那个每日千字的博主真的是很了不起。&lt;/p&gt;
+&lt;p&gt;&amp;#8195;&amp;#8195;本来以为上周调研的结果应该可以了，这周可以开始干点别的，我还是too toung。周日把调研报告发给leader，周三都没人回我，难道是写得太差被邮箱服务器当垃圾邮件了？反正他们不急，我也不急，正好可以搞自己的东西，于是又来我儿子这里玩&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;（= =#这个网站给我的感觉就像当年玩qq宠物和coc一样）。加了favicon和search field两个小东西，估计也没人注意到（别逗了，总共都没几个人看）。&lt;/p&gt;
+&lt;p&gt;&amp;#8195;&amp;#8195;在搭自己博客的时候，很有缘地认识了hznu大二的Joway，人挺文艺的而且有点意思，也很有思想。为什么说有缘，是因为我加他好友的时候并不知道他也在杭州，而且他学校就在公司附近，等有机会了可以见一面。左边的友情链接里可以看到他的博客&lt;a href=&quot;https://joway.wang/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JowayW&lt;/a&gt;，可以去看看，有相册，颜值可以和我媲美了！&lt;/p&gt;
+&lt;p&gt;&amp;#8195;&amp;#8195;除了搭这个网站，就是刷PAT了。自从1010受刺激，这周便开始用C++。不过再一次接触启蒙语言，真是最熟悉的陌生人。越往后做，越发觉得本科的C++学到狗肚子里去了（不光C++，本科四年感觉都白过了= =#）。准备开个分类记录一些经典的题目，到时候复习也好用。&lt;/p&gt;
+&lt;p&gt;&amp;#8195;&amp;#8195;到了周三，我主动联系了leader，然后结果果然是，你这个调研不可行，&lt;/p&gt;
+</content>
     
     <summary type="html">
+    
+      &lt;p&gt;&amp;#8195;&amp;#8195;这周过的真快，真是觉得啥也没干，也没遇见什么好玩的事，所以憋出一篇博客不比我小时候写日记或作文痛苦。不过既然已经在第一篇文章里立下了flag，就一定要坚持。顿时觉得那个每日千字的博主真的是很了不起。&lt;/p&gt;
+&lt;p&gt;&amp;#8195;&amp;#8195;本来以为上周调研的结果应该可以了，这周可以开始干点别的，我还是too toung。周日把调研报告发给leader，周三都没人回我，难道是写得太差被邮箱服务器当垃圾邮件了？反正他们不急，我也不急，正好可以搞自己的东西，于是又来我儿子这里玩
     
     </summary>
     
@@ -42,7 +50,7 @@
     <link href="http://geeookliu.me/posts/PAT/2016-03-19-PAT%E4%B9%8B%E5%88%9D%E4%BD%93%E9%AA%8C.html"/>
     <id>http://geeookliu.me/posts/PAT/2016-03-19-PAT之初体验.html</id>
     <published>2016-03-19T02:49:23.000Z</published>
-    <updated>2016-03-27T02:10:31.607Z</updated>
+    <updated>2016-03-27T03:41:55.489Z</updated>
     
     <content type="html">&lt;p&gt;&amp;#8195;&amp;#8195;大概是上周日的时候听见学姐学长在讨论PAT，才知道这么个厉害的东西。先大致介绍一下PAT吧。Programming Ability Test是计算机程序设计能力考试，旨在通过统一组织的在线考试及自动评测方法客观地评判考生的算法设计与程序设计实现能力，科学的评价计算机程序设计人才，为企业选拔人才提供参考标准。每年分春、秋、冬季组织3次统一考试，大约分别在每年2-3月、8-9月、11-12月举行。每场考试分三个难度级别：顶级(Top Level)、甲级(Advanced Level)、乙级(Basic Level)。&lt;/p&gt;
 &lt;p&gt;&amp;#8195;&amp;#8195;不说话，看图&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -89,7 +97,7 @@
     <link href="http://geeookliu.me/posts/plan/2016-03-14-%E4%BB%8A%E5%A4%A9%E5%BC%80%E5%A7%8B-%E4%B8%BA%E6%97%B6%E6%9C%AA%E6%99%9A.html"/>
     <id>http://geeookliu.me/posts/plan/2016-03-14-今天开始-为时未晚.html</id>
     <published>2016-03-14T04:42:07.000Z</published>
-    <updated>2016-03-27T02:10:39.439Z</updated>
+    <updated>2016-03-27T03:42:27.228Z</updated>
     
     <content type="html">&lt;p&gt;&amp;#8195;&amp;#8195;现在时间：2016年3月14号周一13：45。午休刚醒，多睡了30分钟，感觉精神好多了。这周的主要任务是调研，然而我一点干劲都没有，好想code，于是我鼓捣了一上午的hexo。我心中萌生了一些想法，就是坚持写blog。我长这么大，除了坚持吃饭睡觉（哦，不对，早上不吃饭，晚上不睡觉的情况也发生过），就没有坚持过一件事情，真这样的话，在老去之际，我一定会后悔的。&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&amp;#8195;&amp;#8195;看着同龄人甚至比自己小的人(96的Faker，97的柯洁和Greyson Chance)一个个都比自己厉害，那种被碾压的感觉连嫉妒都觉得差距太远，虽然我和他们不在一个领域，可是我也想成为一个很厉害的人啊！除了天赋，我和他们到底差了什么？直到有一天，我看到了关于Sky的成长历程，我才明白，原来只要一直做一件事情就会很厉害。既然我笨，那就以勤补拙吧。&lt;/p&gt;
