@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://geeookliu.me/"/>
-  <updated>2016-03-28T03:30:27.164Z</updated>
+  <updated>2016-03-28T04:47:53.745Z</updated>
   <id>http://geeookliu.me/</id>
   
   <author>
@@ -20,11 +20,12 @@
     <link href="http://geeookliu.me/posts/PAT/2016-03-27-PAT1015%E4%B9%8B%E5%BE%B7%E6%89%8D%E8%AE%BA.html"/>
     <id>http://geeookliu.me/posts/PAT/2016-03-27-PAT1015之德才论.html</id>
     <published>2016-03-27T13:17:43.000Z</published>
-    <updated>2016-03-28T03:30:27.164Z</updated>
+    <updated>2016-03-28T04:47:53.745Z</updated>
     
     <content type="html">&lt;h1 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot; title=&quot;题目&quot;&gt;&lt;/a&gt;题目&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;宋代史学家司马光在《资治通鉴》中有一段著名的“德才论”：“是故才德全尽谓之圣人，才德兼亡谓之愚人，德胜才谓之君子，才胜德谓之小人。凡取人之术，苟不得圣人，君子而与之，与其得小人，不若得愚人。”&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;img src=&quot;\images\PAT1015德才论.png&quot; alt=&quot;PAT1015德才论&quot;&gt;&lt;/p&gt;
+&lt;p&gt;宋代史学家司马光在《资治通鉴》中有一段著名的“德才论”：“是故才德全尽谓之圣人，才德兼亡谓之愚人，德胜才谓之君子，才胜德谓之小人。凡取人之术，苟不得圣人，君子而与之，与其得小人，不若得愚人。”&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;\images\PAT1015德才论.png&quot; alt=&quot;PAT1015德才论&quot;&gt;&lt;/p&gt;
 &lt;h1 id=&quot;难点&quot;&gt;&lt;a href=&quot;#难点&quot; class=&quot;headerlink&quot; title=&quot;难点&quot;&gt;&lt;/a&gt;难点&lt;/h1&gt;&lt;ol&gt;
 &lt;li&gt;同一个体的多数据存储&lt;/li&gt;
 &lt;li&gt;循环中把满足不同规则的数据放到不同的数组&lt;/li&gt;
@@ -43,7 +44,7 @@
 &lt;h2 id=&quot;向量&quot;&gt;&lt;a href=&quot;#向量&quot; class=&quot;headerlink&quot; title=&quot;向量&quot;&gt;&lt;/a&gt;向量&lt;/h2&gt;&lt;p&gt;&amp;#8195;&amp;#8195;Vector类似于Java的List，可以定义任意数据类型（struct也可以）的向量。Vector作为容器，可以根据下标索引，也可以用迭代器操作。Vector的push_back函数类似于List的add函数。PS：需要包含vector的头文件&lt;strong&gt;#include &amp;lt; vector &amp;gt;&lt;/strong&gt;。&lt;/p&gt;
 &lt;h2 id=&quot;排序函数&quot;&gt;&lt;a href=&quot;#排序函数&quot; class=&quot;headerlink&quot; title=&quot;排序函数&quot;&gt;&lt;/a&gt;排序函数&lt;/h2&gt;&lt;p&gt;&amp;#8195;&amp;#8195;sort函数可以传两个参数或三个参数。第一个参数是要排序的区间首地址，第二个参数是区间尾地址的下一地址。也就是说，排序的区间是[a,b)。简单来说，有一个数组int a[100]，要对从a[0]到a[99]的元素进行排序，只要写sort(a,a+100)就行了，默认的排序方式是升序。对向量v排序也差不多，sort(v.begin(),v.end());&lt;/p&gt;
 &lt;p&gt;&amp;#8195;&amp;#8195;如果是没有定义小于运算的数据类型，或者想改变排序的顺序，就要用到第三参数——比较函数。比较函数是一个自己定义的函数，返回值是bool型，它规定了什么样的关系才是“小于”。最简单的，改为降序。&lt;br&gt;&lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;bool&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;cmp&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(&lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; a, &lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; b)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; a &amp;gt; b;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sort(a, a+&lt;span class=&quot;number&quot;&gt;100&lt;/span&gt;, cmp);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;&amp;#8195;&amp;#8195;本题中的排序规则是：先总分降序，再德分降序，最后准考证号升序。&lt;br&gt;&lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;bool&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;cmp&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(Stu a, Stu b)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; ((a.de + a.cai) != (b.de + b.cai)) &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; (a.de + a.cai) &amp;gt; (b.de + b.cai);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (a.de != b.de) &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; a.de &amp;gt; b.de;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; a.num &amp;lt; b.num;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#8195;&amp;#8195;本题中的排序规则是：先总分降序，再德分降序，最后准考证号升序。PS：需要包含头文件&lt;strong&gt;#include &amp;lt; algorithm &amp;gt;&lt;/strong&gt;。&lt;br&gt;&lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;bool&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;cmp&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(Stu a, Stu b)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; ((a.de + a.cai) != (b.de + b.cai)) &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; (a.de + a.cai) &amp;gt; (b.de + b.cai);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (a.de != b.de) &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; a.de &amp;gt; b.de;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; a.num &amp;lt; b.num;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;h2 id=&quot;格式化输出&quot;&gt;&lt;a href=&quot;#格式化输出&quot; class=&quot;headerlink&quot; title=&quot;格式化输出&quot;&gt;&lt;/a&gt;格式化输出&lt;/h2&gt;&lt;p&gt;&amp;#8195;&amp;#8195;printf()函数是格式化输出函数, 一般用于向标准输出设备按规定格式输出信息。&lt;br&gt;&lt;img src=&quot;\images\printf输出格式.png&quot; alt=&quot;printf输出格式&quot;&gt;&lt;br&gt;&lt;strong&gt;\n：回车（转义字符）&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&amp;#8195;&amp;#8195;这道题度我来说挺很难的，所以把它记了下来。最后，一定要谨记司马光的话：&lt;/p&gt;
 &lt;blockquote&gt;
@@ -54,16 +55,16 @@
     <summary type="html">
     
       &lt;h1 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot; title=&quot;题目&quot;&gt;&lt;/a&gt;题目&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;宋代史学家司马光在《资治通鉴》中有一段著名的“德才论”：“是故才德全尽谓之圣人，才德兼亡谓之愚人，德胜才谓之君子，才胜德谓之小人。凡取人之术，苟不得圣人，君子而与之，与其得小人，不若得愚人。”&lt;br&gt;
+&lt;p&gt;宋代史学家司马光在《资治通鉴》中有一段著名的“德才论”：“是故才德全尽谓之圣人，才德兼亡谓之愚人，德胜才谓之君子，才胜德谓之小人。凡取人之术，苟不得圣人，君子而与之，与其得小人，不若得愚人。”
     
     </summary>
     
       <category term="PAT" scheme="http://geeookliu.me/categories/PAT/"/>
     
     
-      <category term="PAT" scheme="http://geeookliu.me/tags/PAT/"/>
-    
       <category term="C++" scheme="http://geeookliu.me/tags/C/"/>
+    
+      <category term="PAT" scheme="http://geeookliu.me/tags/PAT/"/>
     
       <category term="排序算法" scheme="http://geeookliu.me/tags/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
     

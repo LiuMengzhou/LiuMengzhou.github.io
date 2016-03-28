@@ -16,7 +16,7 @@
 宋代史学家司马光在《资治通鉴》中有一段著名的“德才论”：“是故才德全尽谓之圣人，才德兼亡谓之愚人，德胜才谓之君子，才胜德谓之小人。凡取人之术，苟不得圣人，君子而与之，与其得小人，不若得愚人。”">
 <meta property="og:image" content="http://geeookliu.me/\images\PAT1015德才论.png">
 <meta property="og:image" content="http://geeookliu.me/\images\printf输出格式.png">
-<meta property="og:updated_time" content="2016-03-28T03:30:27.164Z">
+<meta property="og:updated_time" content="2016-03-28T04:47:53.745Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="PAT1015之德才论">
 <meta name="twitter:description" content="题目
@@ -249,8 +249,9 @@
       </div>
       
         <h1 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h1><blockquote>
-<p>宋代史学家司马光在《资治通鉴》中有一段著名的“德才论”：“是故才德全尽谓之圣人，才德兼亡谓之愚人，德胜才谓之君子，才胜德谓之小人。凡取人之术，苟不得圣人，君子而与之，与其得小人，不若得愚人。”<br><a id="more"></a><br><img src="\images\PAT1015德才论.png" alt="PAT1015德才论"></p>
+<p>宋代史学家司马光在《资治通鉴》中有一段著名的“德才论”：“是故才德全尽谓之圣人，才德兼亡谓之愚人，德胜才谓之君子，才胜德谓之小人。凡取人之术，苟不得圣人，君子而与之，与其得小人，不若得愚人。”<a id="more"></a></p>
 </blockquote>
+<p><img src="\images\PAT1015德才论.png" alt="PAT1015德才论"></p>
 <h1 id="难点"><a href="#难点" class="headerlink" title="难点"></a>难点</h1><ol>
 <li>同一个体的多数据存储</li>
 <li>循环中把满足不同规则的数据放到不同的数组</li>
@@ -269,7 +270,7 @@
 <h2 id="向量"><a href="#向量" class="headerlink" title="向量"></a>向量</h2><p>&#8195;&#8195;Vector类似于Java的List，可以定义任意数据类型（struct也可以）的向量。Vector作为容器，可以根据下标索引，也可以用迭代器操作。Vector的push_back函数类似于List的add函数。PS：需要包含vector的头文件<strong>#include &lt; vector &gt;</strong>。</p>
 <h2 id="排序函数"><a href="#排序函数" class="headerlink" title="排序函数"></a>排序函数</h2><p>&#8195;&#8195;sort函数可以传两个参数或三个参数。第一个参数是要排序的区间首地址，第二个参数是区间尾地址的下一地址。也就是说，排序的区间是[a,b)。简单来说，有一个数组int a[100]，要对从a[0]到a[99]的元素进行排序，只要写sort(a,a+100)就行了，默认的排序方式是升序。对向量v排序也差不多，sort(v.begin(),v.end());</p>
 <p>&#8195;&#8195;如果是没有定义小于运算的数据类型，或者想改变排序的顺序，就要用到第三参数——比较函数。比较函数是一个自己定义的函数，返回值是bool型，它规定了什么样的关系才是“小于”。最简单的，改为降序。<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">cmp</span><span class="params">(<span class="keyword">int</span> a, <span class="keyword">int</span> b)</span></span><br><span class="line"></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> a &gt; b;</span><br><span class="line">&#125;</span><br><span class="line">sort(a, a+<span class="number">100</span>, cmp);</span><br></pre></td></tr></table></figure></p>
-<p>&#8195;&#8195;本题中的排序规则是：先总分降序，再德分降序，最后准考证号升序。<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">cmp</span><span class="params">(Stu a, Stu b)</span></span><br><span class="line"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> ((a.de + a.cai) != (b.de + b.cai)) <span class="keyword">return</span> (a.de + a.cai) &gt; (b.de + b.cai);</span><br><span class="line">        <span class="keyword">if</span> (a.de != b.de) <span class="keyword">return</span> a.de &gt; b.de;</span><br><span class="line">            <span class="keyword">return</span> a.num &lt; b.num;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>&#8195;&#8195;本题中的排序规则是：先总分降序，再德分降序，最后准考证号升序。PS：需要包含头文件<strong>#include &lt; algorithm &gt;</strong>。<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">cmp</span><span class="params">(Stu a, Stu b)</span></span><br><span class="line"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> ((a.de + a.cai) != (b.de + b.cai)) <span class="keyword">return</span> (a.de + a.cai) &gt; (b.de + b.cai);</span><br><span class="line">        <span class="keyword">if</span> (a.de != b.de) <span class="keyword">return</span> a.de &gt; b.de;</span><br><span class="line">            <span class="keyword">return</span> a.num &lt; b.num;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
 <h2 id="格式化输出"><a href="#格式化输出" class="headerlink" title="格式化输出"></a>格式化输出</h2><p>&#8195;&#8195;printf()函数是格式化输出函数, 一般用于向标准输出设备按规定格式输出信息。<br><img src="\images\printf输出格式.png" alt="printf输出格式"><br><strong>\n：回车（转义字符）</strong></p>
 <p>&#8195;&#8195;这道题度我来说挺很难的，所以把它记了下来。最后，一定要谨记司马光的话：</p>
 <blockquote>
