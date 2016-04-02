@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://geeookliu.me/"/>
-  <updated>2016-03-31T07:15:52.000Z</updated>
+  <updated>2016-04-02T03:32:33.111Z</updated>
   <id>http://geeookliu.me/</id>
   
   <author>
@@ -14,6 +14,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>All my friends are dead</title>
+    <link href="http://geeookliu.me/posts/book/2016-04-02-All-my-friends-are-dead.html"/>
+    <id>http://geeookliu.me/posts/book/2016-04-02-All-my-friends-are-dead.html</id>
+    <published>2016-04-02T03:20:19.000Z</published>
+    <updated>2016-04-02T03:32:33.111Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;font size=&quot;10&quot; color=&quot;rgb(83, 169, 198)&quot;&gt;All my friends are dead~&lt;/font&gt;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;font size=&quot;10&quot; color=&quot;rgb(83, 169, 198)&quot;&gt;All my friends are dead~&lt;/font&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="book" scheme="http://geeookliu.me/categories/book/"/>
+    
+    
+      <category term="漫画" scheme="http://geeookliu.me/tags/%E6%BC%AB%E7%94%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>Surprise</title>
@@ -44,7 +67,7 @@
     <link href="http://geeookliu.me/posts/PAT/2016-03-27-PAT1015%E4%B9%8B%E5%BE%B7%E6%89%8D%E8%AE%BA.html"/>
     <id>http://geeookliu.me/posts/PAT/2016-03-27-PAT1015之德才论.html</id>
     <published>2016-03-27T13:17:43.000Z</published>
-    <updated>2016-03-28T04:47:53.000Z</updated>
+    <updated>2016-04-02T03:18:29.472Z</updated>
     
     <content type="html">&lt;h1 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot; title=&quot;题目&quot;&gt;&lt;/a&gt;题目&lt;/h1&gt;&lt;blockquote&gt;
 &lt;p&gt;宋代史学家司马光在《资治通鉴》中有一段著名的“德才论”：“是故才德全尽谓之圣人，才德兼亡谓之愚人，德胜才谓之君子，才胜德谓之小人。凡取人之术，苟不得圣人，君子而与之，与其得小人，不若得愚人。”&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -74,6 +97,25 @@
 &lt;blockquote&gt;
 &lt;p&gt;德胜才谓之君子，才胜德谓之小人。&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;p&gt;—2016-04-02-update—&lt;/p&gt;
+&lt;h2 id=&quot;关于格式化输出的一些例子&quot;&gt;&lt;a href=&quot;#关于格式化输出的一些例子&quot; class=&quot;headerlink&quot; title=&quot;关于格式化输出的一些例子&quot;&gt;&lt;/a&gt;关于格式化输出的一些例子&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;printf( “%d:%d\n” , i, a[i]);&lt;blockquote&gt;
+&lt;p&gt;0:2&lt;br&gt;1:3&lt;br&gt;3:1&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;printf( “%.2f\n” , result);&lt;blockquote&gt;
+&lt;p&gt;94.50&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;printf( “%04d - %04d = %04d\n”, m, n, m - n);&lt;blockquote&gt;
+&lt;p&gt;7766 - 6677 = 1089&lt;br&gt;9810 - 0189 = 9621&lt;br&gt;9621 - 1269 = 8352&lt;br&gt;8532 - 2358 = 6174&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;printf(“%d %d %d\n”, iter-&amp;gt;num, iter-&amp;gt;de, iter-&amp;gt;cai);&lt;blockquote&gt;
+&lt;p&gt;10000013 90 99&lt;br&gt;10000012 80 100&lt;br&gt;10000003 85 80&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 </content>
     
     <summary type="html">
@@ -86,9 +128,9 @@
       <category term="PAT" scheme="http://geeookliu.me/categories/PAT/"/>
     
     
-      <category term="PAT" scheme="http://geeookliu.me/tags/PAT/"/>
-    
       <category term="C++" scheme="http://geeookliu.me/tags/C/"/>
+    
+      <category term="PAT" scheme="http://geeookliu.me/tags/PAT/"/>
     
       <category term="排序算法" scheme="http://geeookliu.me/tags/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
     
