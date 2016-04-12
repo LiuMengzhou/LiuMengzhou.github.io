@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://geeookliu.me/"/>
-  <updated>2016-04-10T06:39:17.181Z</updated>
+  <updated>2016-04-12T14:57:41.914Z</updated>
   <id>http://geeookliu.me/</id>
   
   <author>
@@ -14,6 +14,39 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Digital Ocean and Shadow Socks 科学上网</title>
+    <link href="http://geeookliu.me/posts/VPS/2016-04-12-Digital-Ocean-and-Shadow-Socks-%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91.html"/>
+    <id>http://geeookliu.me/posts/VPS/2016-04-12-Digital-Ocean-and-Shadow-Socks-科学上网.html</id>
+    <published>2016-04-12T05:59:58.000Z</published>
+    <updated>2016-04-12T14:57:41.914Z</updated>
+    
+    <content type="html">&lt;p&gt;&amp;#8195;&amp;#8195;大龙哥的SS快到期了，不能继续蹭了。所以今天下午用在自己在DO上申请的VPS上搭了SS。本来以为会很难，毕竟大龙哥说还要学Linux命令以及这种事情看起来只有像健哥那种大神才会鼓捣。不过既然买了VPS，不用也浪费了。试试，不行就算。搭好以后发现其实并不难，涉及的linux命令并不多。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;准备&quot;&gt;&lt;a href=&quot;#准备&quot; class=&quot;headerlink&quot; title=&quot;准备&quot;&gt;&lt;/a&gt;准备&lt;/h1&gt;&lt;p&gt;其实准备的东西还是蛮多的。&lt;/p&gt;
+&lt;h2 id=&quot;下载链接&quot;&gt;&lt;a href=&quot;#下载链接&quot; class=&quot;headerlink&quot; title=&quot;下载链接&quot;&gt;&lt;/a&gt;下载链接&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.digitalocean.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Digital Ocean&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;PuTTY和PSFTP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/shadowsocks/shadowsocks-windows/releases&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Shadow Socks&lt;/a&gt;&lt;h2 id=&quot;Digital-Ocean&quot;&gt;&lt;a href=&quot;#Digital-Ocean&quot; class=&quot;headerlink&quot; title=&quot;Digital Ocean&quot;&gt;&lt;/a&gt;Digital Ocean&lt;/h2&gt;&amp;#8195;&amp;#8195;先给个链接吧，感谢大龙哥告诉我这么好的&lt;a href=&quot;https://education.github.com/pack&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;福利&lt;/a&gt;&lt;br&gt;— 待续 —&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&amp;#8195;&amp;#8195;大龙哥的SS快到期了，不能继续蹭了。所以今天下午用在自己在DO上申请的VPS上搭了SS。本来以为会很难，毕竟大龙哥说还要学Linux命令以及这种事情看起来只有像健哥那种大神才会鼓捣。不过既然买了VPS，不用也浪费了。试试，不行就算。搭好以后发现其实并不难，涉及的linux命令并不多。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="VPS" scheme="http://geeookliu.me/categories/VPS/"/>
+    
+    
+      <category term="DigitalOcean" scheme="http://geeookliu.me/tags/DigitalOcean/"/>
+    
+      <category term="ShadowSocks" scheme="http://geeookliu.me/tags/ShadowSocks/"/>
+    
+      <category term="VPS" scheme="http://geeookliu.me/tags/VPS/"/>
+    
+  </entry>
   
   <entry>
     <title>上天竺法喜寺</title>
