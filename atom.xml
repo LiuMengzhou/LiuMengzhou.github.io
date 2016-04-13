@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://geeookliu.me/"/>
-  <updated>2016-04-12T14:57:41.914Z</updated>
+  <updated>2016-04-13T09:31:43.916Z</updated>
   <id>http://geeookliu.me/</id>
   
   <author>
@@ -20,15 +20,18 @@
     <link href="http://geeookliu.me/posts/VPS/2016-04-12-Digital-Ocean-and-Shadow-Socks-%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91.html"/>
     <id>http://geeookliu.me/posts/VPS/2016-04-12-Digital-Ocean-and-Shadow-Socks-科学上网.html</id>
     <published>2016-04-12T05:59:58.000Z</published>
-    <updated>2016-04-12T14:57:41.914Z</updated>
+    <updated>2016-04-13T09:31:43.916Z</updated>
     
     <content type="html">&lt;p&gt;&amp;#8195;&amp;#8195;大龙哥的SS快到期了，不能继续蹭了。所以今天下午用在自己在DO上申请的VPS上搭了SS。本来以为会很难，毕竟大龙哥说还要学Linux命令以及这种事情看起来只有像健哥那种大神才会鼓捣。不过既然买了VPS，不用也浪费了。试试，不行就算。搭好以后发现其实并不难，涉及的linux命令并不多。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&quot;准备&quot;&gt;&lt;a href=&quot;#准备&quot; class=&quot;headerlink&quot; title=&quot;准备&quot;&gt;&lt;/a&gt;准备&lt;/h1&gt;&lt;p&gt;其实准备的东西还是蛮多的。&lt;/p&gt;
-&lt;h2 id=&quot;下载链接&quot;&gt;&lt;a href=&quot;#下载链接&quot; class=&quot;headerlink&quot; title=&quot;下载链接&quot;&gt;&lt;/a&gt;下载链接&lt;/h2&gt;&lt;ol&gt;
+&lt;h1 id=&quot;准备&quot;&gt;&lt;a href=&quot;#准备&quot; class=&quot;headerlink&quot; title=&quot;准备&quot;&gt;&lt;/a&gt;准备&lt;/h1&gt;&lt;h2 id=&quot;相关链接&quot;&gt;&lt;a href=&quot;#相关链接&quot; class=&quot;headerlink&quot; title=&quot;相关链接&quot;&gt;&lt;/a&gt;相关链接&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://education.github.com/pack&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub Student Pack&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.digitalocean.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Digital Ocean&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;PuTTY和PSFTP&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/shadowsocks/shadowsocks-windows/releases&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Shadow Socks&lt;/a&gt;&lt;h2 id=&quot;Digital-Ocean&quot;&gt;&lt;a href=&quot;#Digital-Ocean&quot; class=&quot;headerlink&quot; title=&quot;Digital Ocean&quot;&gt;&lt;/a&gt;Digital Ocean&lt;/h2&gt;&amp;#8195;&amp;#8195;先给个链接吧，感谢大龙哥告诉我这么好的&lt;a href=&quot;https://education.github.com/pack&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;福利&lt;/a&gt;&lt;br&gt;— 待续 —&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;PuTTY &amp;amp; PSFTP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/shadowsocks/shadowsocks-windows/releases&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Shadow Socks&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
+&lt;h2 id=&quot;GitHub-Student-Pack&quot;&gt;&lt;a href=&quot;#GitHub-Student-Pack&quot; class=&quot;headerlink&quot; title=&quot;GitHub Student Pack&quot;&gt;&lt;/a&gt;GitHub Student Pack&lt;/h2&gt;&lt;p&gt;&amp;#8195;&amp;#8195;感谢大龙哥告诉我这么好的&lt;a href=&quot;https://education.github.com/pack&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;github福利&lt;/a&gt;。这是github面向高校在校生，鼓励他们开发创业推出的大礼包，包括某些软件的免费使用权、.me域名第一年免费、GitHub私有仓库、Digital Ocean 50刀的充值券、游戏引擎等等。申请过程很简单，直接提供学校邮箱即可。不过国内高校的邮箱基本不通过，因为国外不认，呵呵哒。一般都要申请第二遍，就是上传可以证明学生身份的照片，比如学生证、成绩单、校园卡之类的。所以建议第一遍直接上传照片。提交申请以后，大概快的话3天就有回复，慢的话一周。申请到Student Pack以后，就可以开搞了。&lt;/p&gt;
+&lt;h2 id=&quot;Digital-Ocean&quot;&gt;&lt;a href=&quot;#Digital-Ocean&quot; class=&quot;headerlink&quot; title=&quot;Digital Ocean&quot;&gt;&lt;/a&gt;Digital Ocean&lt;/h2&gt;&lt;p&gt;&amp;#8195;&amp;#8195;拿着GitHub送的Promote Code注册DO就有50美元&lt;/p&gt;
+&lt;h2 id=&quot;PuTTY-amp-PSFTP&quot;&gt;&lt;a href=&quot;#PuTTY-amp-PSFTP&quot; class=&quot;headerlink&quot; title=&quot;PuTTY &amp;amp; PSFTP&quot;&gt;&lt;/a&gt;PuTTY &amp;amp; PSFTP&lt;/h2&gt;&lt;h2 id=&quot;Shadow-Socks&quot;&gt;&lt;a href=&quot;#Shadow-Socks&quot; class=&quot;headerlink&quot; title=&quot;Shadow Socks&quot;&gt;&lt;/a&gt;Shadow Socks&lt;/h2&gt;&lt;p&gt;— 待续 —&lt;/p&gt;
 </content>
     
     <summary type="html">
@@ -53,7 +56,7 @@
     <link href="http://geeookliu.me/posts/life/2016-04-09-%E4%B8%8A%E5%A4%A9%E7%AB%BA%E6%B3%95%E5%96%9C%E5%AF%BA.html"/>
     <id>http://geeookliu.me/posts/life/2016-04-09-上天竺法喜寺.html</id>
     <published>2016-04-09T06:52:24.000Z</published>
-    <updated>2016-04-10T06:39:17.181Z</updated>
+    <updated>2016-04-10T06:37:01.000Z</updated>
     
     <content type="html">&lt;p&gt;&amp;#8195;&amp;#8195;杭州市天竺山有著名三寺，时称“天竺三寺”（上天竺法喜寺、中天竺法净寺、下天竺法镜寺）。据《湖山胜概称》&lt;/p&gt;
 &lt;blockquote&gt;
@@ -94,7 +97,7 @@
     <link href="http://geeookliu.me/posts/life/2016-04-02-All-my-friends-are-dead.html"/>
     <id>http://geeookliu.me/posts/life/2016-04-02-All-my-friends-are-dead.html</id>
     <published>2016-04-02T03:20:19.000Z</published>
-    <updated>2016-04-02T07:12:17.270Z</updated>
+    <updated>2016-04-02T07:12:17.000Z</updated>
     
     <content type="html">&lt;p&gt;&amp;#8195;&amp;#8195;&lt;font size=&quot;5&quot; color=&quot;#b3cccc&quot;&gt;我所有的朋友都死了&lt;/font&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;，是一本漫画的名字。我的朋友们都很好，不用担心。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;\images\cartoon\封面.jpg&quot; alt=&quot;封面&quot;&gt;&lt;br&gt;&lt;img src=&quot;\images\cartoon\alone.jpg&quot; alt=&quot;alone&quot;&gt;&lt;/p&gt;
@@ -133,7 +136,7 @@
     <link href="http://geeookliu.me/posts/life/2016-03-30-Surprise.html"/>
     <id>http://geeookliu.me/posts/life/2016-03-30-Surprise.html</id>
     <published>2016-03-30T05:55:50.000Z</published>
-    <updated>2016-03-31T07:15:52.000Z</updated>
+    <updated>2016-03-31T07:15:52.586Z</updated>
     
     <content type="html">&lt;p&gt;&amp;#8195;&amp;#8195;Surprise！我猜你不敢点开。(•́ ₃ •̀)&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;img src=&quot;\images\红包口令.jpg&quot; alt=&quot;红包口令&quot;&gt;&lt;br&gt;&amp;lt;图片已删&amp;gt;&lt;/p&gt;
 &lt;p&gt;—2016-03-31-update—&lt;br&gt;&amp;#8195;&amp;#8195;Sad！果然没人。(╥﹏╥)&lt;br&gt;&lt;img src=&quot;\images\null.png&quot; alt=&quot;null&quot;&gt;&lt;/p&gt;
@@ -157,7 +160,7 @@
     <link href="http://geeookliu.me/posts/PAT/2016-03-27-PAT1015%E4%B9%8B%E5%BE%B7%E6%89%8D%E8%AE%BA.html"/>
     <id>http://geeookliu.me/posts/PAT/2016-03-27-PAT1015之德才论.html</id>
     <published>2016-03-27T13:17:43.000Z</published>
-    <updated>2016-04-02T03:18:29.472Z</updated>
+    <updated>2016-04-02T03:18:29.000Z</updated>
     
     <content type="html">&lt;h1 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot; title=&quot;题目&quot;&gt;&lt;/a&gt;题目&lt;/h1&gt;&lt;blockquote&gt;
 &lt;p&gt;宋代史学家司马光在《资治通鉴》中有一段著名的“德才论”：“是故才德全尽谓之圣人，才德兼亡谓之愚人，德胜才谓之君子，才胜德谓之小人。凡取人之术，苟不得圣人，君子而与之，与其得小人，不若得愚人。”&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -218,9 +221,9 @@
       <category term="PAT" scheme="http://geeookliu.me/categories/PAT/"/>
     
     
-      <category term="C++" scheme="http://geeookliu.me/tags/C/"/>
-    
       <category term="PAT" scheme="http://geeookliu.me/tags/PAT/"/>
+    
+      <category term="C++" scheme="http://geeookliu.me/tags/C/"/>
     
       <category term="排序算法" scheme="http://geeookliu.me/tags/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
     
@@ -231,7 +234,7 @@
     <link href="http://geeookliu.me/posts/life/2016-03-27-This-week.html"/>
     <id>http://geeookliu.me/posts/life/2016-03-27-This-week.html</id>
     <published>2016-03-26T17:00:28.000Z</published>
-    <updated>2016-03-27T13:10:18.161Z</updated>
+    <updated>2016-03-27T13:10:18.000Z</updated>
     
     <content type="html">&lt;p&gt;&amp;#8195;&amp;#8195;这周过的真快，真是觉得啥也没干，也没遇见什么好玩的事，所以憋出一篇博客不比我小时候写日记或作文痛苦。不过既然已经在第一篇文章里立下了flag，就一定要坚持。顿时觉得那个每日千字的博主真的是很了不起。&lt;/p&gt;
 &lt;p&gt;&amp;#8195;&amp;#8195;本来以为上周调研的结果应该可以了，这周可以开始干点别的，我还是too young。周日把调研报告发给leader，周三都没人回我，难道是写得太差被邮箱服务器当垃圾邮件了？反正他们不急，我也不急，正好可以搞自己的东西，于是又来我儿子这里玩&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;（= =#这个网站给我的感觉就像当年玩qq宠物和coc一样）。加了favicon和search field两个小东西，估计也没人注意到（别逗了，就没人看好吧）。&lt;/p&gt;
@@ -271,7 +274,7 @@
     <link href="http://geeookliu.me/posts/PAT/2016-03-19-PAT%E4%B9%8B%E5%88%9D%E4%BD%93%E9%AA%8C.html"/>
     <id>http://geeookliu.me/posts/PAT/2016-03-19-PAT之初体验.html</id>
     <published>2016-03-19T02:49:23.000Z</published>
-    <updated>2016-03-27T03:41:55.489Z</updated>
+    <updated>2016-03-27T03:41:55.000Z</updated>
     
     <content type="html">&lt;p&gt;&amp;#8195;&amp;#8195;大概是上周日的时候听见学姐学长在讨论PAT，才知道这么个厉害的东西。先大致介绍一下PAT吧。Programming Ability Test是计算机程序设计能力考试，旨在通过统一组织的在线考试及自动评测方法客观地评判考生的算法设计与程序设计实现能力，科学的评价计算机程序设计人才，为企业选拔人才提供参考标准。每年分春、秋、冬季组织3次统一考试，大约分别在每年2-3月、8-9月、11-12月举行。每场考试分三个难度级别：顶级(Top Level)、甲级(Advanced Level)、乙级(Basic Level)。&lt;/p&gt;
 &lt;p&gt;&amp;#8195;&amp;#8195;不说话，看图&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -318,7 +321,7 @@
     <link href="http://geeookliu.me/posts/plan/2016-03-14-%E4%BB%8A%E5%A4%A9%E5%BC%80%E5%A7%8B-%E4%B8%BA%E6%97%B6%E6%9C%AA%E6%99%9A.html"/>
     <id>http://geeookliu.me/posts/plan/2016-03-14-今天开始-为时未晚.html</id>
     <published>2016-03-14T04:42:07.000Z</published>
-    <updated>2016-03-27T03:42:27.228Z</updated>
+    <updated>2016-03-27T03:42:27.000Z</updated>
     
     <content type="html">&lt;p&gt;&amp;#8195;&amp;#8195;现在时间：2016年3月14号周一13：45。午休刚醒，多睡了30分钟，感觉精神好多了。这周的主要任务是调研，然而我一点干劲都没有，好想code，于是我鼓捣了一上午的hexo。我心中萌生了一些想法，就是坚持写blog。我长这么大，除了坚持吃饭睡觉（哦，不对，早上不吃饭，晚上不睡觉的情况也发生过），就没有坚持过一件事情，真这样的话，在老去之际，我一定会后悔的。&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&amp;#8195;&amp;#8195;看着同龄人甚至比自己小的人(96的Faker，97的柯洁和Greyson Chance)一个个都比自己厉害，那种被碾压的感觉连嫉妒都觉得差距太远，虽然我和他们不在一个领域，可是我也想成为一个很厉害的人啊！除了天赋，我和他们到底差了什么？直到有一天，我看到了关于Sky的成长历程，我才明白，原来只要一直做一件事情就会很厉害。既然我笨，那就以勤补拙吧。&lt;/p&gt;
