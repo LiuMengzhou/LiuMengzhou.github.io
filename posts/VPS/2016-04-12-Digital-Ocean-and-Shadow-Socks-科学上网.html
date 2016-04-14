@@ -12,18 +12,17 @@
 <meta property="og:url" content="http://geeookliu.me/posts/VPS/2016-04-12-Digital-Ocean-and-Shadow-Socks-科学上网.html">
 <meta property="og:site_name" content="GeeookLiu's Blog">
 <meta property="og:description" content="&amp;#8195;&amp;#8195;大龙哥的SS快到期了，不能继续蹭了。所以今天下午用在自己在DO上申请的VPS上搭了SS。本来以为会很难，毕竟大龙哥说还要学Linux命令以及这种事情看起来只有像健哥那种大神才会鼓捣。不过既然买了VPS，不用也浪费了。试试，不行就算。搭好以后发现其实并不难，涉及的linux命令并不多。">
-<meta property="og:image" content="http://geeookliu.me/\images\DOSS\DO1.png">
-<meta property="og:image" content="http://geeookliu.me/\images\DOSS\DO2.png">
-<meta property="og:image" content="http://speedtest-sfo1.digitalocean.com/">
-<meta property="og:image" content="http://geeookliu.me/\images\DOSS\DO3.png">
-<meta property="og:image" content="http://geeookliu.me/\images\DOSS\speedtestsfo.png">
-<meta property="og:image" content="http://geeookliu.me/\images\DOSS\speedtestsgp.png">
-<meta property="og:image" content="http://geeookliu.me/\images\DOSS\DO4.png">
-<meta property="og:updated_time" content="2016-04-14T02:05:30.758Z">
+<meta property="og:image" content="http://geeookliu.me/\images\DOSS\DO1.jpg">
+<meta property="og:image" content="http://geeookliu.me/\images\DOSS\DO2.jpg">
+<meta property="og:image" content="http://geeookliu.me/\images\DOSS\DO3.jpg">
+<meta property="og:image" content="http://geeookliu.me/\images\DOSS\speedtestsfo.jpg">
+<meta property="og:image" content="http://geeookliu.me/\images\DOSS\speedtestsgp.jpg">
+<meta property="og:image" content="http://geeookliu.me/\images\DOSS\DO4.jpg">
+<meta property="og:updated_time" content="2016-04-14T02:33:03.456Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Digital Ocean and Shadow Socks 科学上网">
 <meta name="twitter:description" content="&amp;#8195;&amp;#8195;大龙哥的SS快到期了，不能继续蹭了。所以今天下午用在自己在DO上申请的VPS上搭了SS。本来以为会很难，毕竟大龙哥说还要学Linux命令以及这种事情看起来只有像健哥那种大神才会鼓捣。不过既然买了VPS，不用也浪费了。试试，不行就算。搭好以后发现其实并不难，涉及的linux命令并不多。">
-<meta name="twitter:image" content="http://geeookliu.me/\images\DOSS\DO1.png">
+<meta name="twitter:image" content="http://geeookliu.me/\images\DOSS\DO1.jpg">
   
   
     <link rel="icon" href="/img/favicon.png">
@@ -270,10 +269,10 @@
 <li><a href="https://github.com/shadowsocks/shadowsocks-windows/releases" target="_blank" rel="external">Shadow Socks</a></li>
 </ol>
 <h1 id="GitHub-Student-Pack"><a href="#GitHub-Student-Pack" class="headerlink" title="GitHub Student Pack"></a>GitHub Student Pack</h1><p>&#8195;&#8195;感谢大龙哥告诉我这么好的<a href="https://education.github.com/pack" target="_blank" rel="external">github福利</a>。这是github面向高校在校生，鼓励他们开发创业推出的大礼包，包括某些软件的免费使用权、.me域名第一年免费、GitHub私有仓库、Digital Ocean 50刀的充值券、游戏引擎等等。申请过程很简单，直接提供学校邮箱即可。不过国内高校的邮箱基本不通过，因为国外不认，呵呵哒。一般都要申请第二遍，就是上传可以证明学生身份的照片，比如学生证、成绩单、校园卡之类的。所以建议第一遍直接上传照片。提交申请以后，大概快的话3天就有回复，慢的话一周。申请到Student Pack以后，就可以开搞了。</p>
-<h1 id="Digital-Ocean"><a href="#Digital-Ocean" class="headerlink" title="Digital Ocean"></a>Digital Ocean</h1><p>&#8195;&#8195;拿着GitHub送的Promote Code注册DO就有50美元。这里放上我的邀请注册<a href="https://m.do.co/c/75caa6ef74b7" target="_blank" rel="external">链接</a>，从我的链接点进去注册的话，你就可以得到10$，嘿嘿(手动笑脸)！注册登陆，然后必须先充5$才能激活账号，用信用卡或者PayPal都可以，这样一来一共就有65美元。这些弄好以后就Create Droplet。<br><img src="\images\DOSS\DO1.png" alt="Create VPS"></p>
-<h2 id="第一步：选择系统版本和套餐"><a href="#第一步：选择系统版本和套餐" class="headerlink" title="第一步：选择系统版本和套餐"></a>第一步：选择系统版本和套餐</h2><p>&#8195;&#8195;系统版本的话选择Ubuntu、CentOS和Debian比较主流。套餐选$5/mon就够用了，可以用13个月。<br><img src="\images\DOSS\DO2.png" alt="第一步"></p>
-<h2 id="第二步：选择机房"><a href="#第二步：选择机房" class="headerlink" title="第二步：选择机房"></a>第二步：选择机房</h2><p>&#8195;&#8195;机房就选在San Francisco，前辈的经验。你可以点进这个<img src="http://speedtest-sfo1.digitalocean.com/" alt="链接">测速，贴出我的测试效果。Select additional options那一栏，虽然没弄明白都有啥用，只知道第二个大概是系统备份？每月额外收费，所以没有勾选。SSH keys的话，可以暂时不用管。<br><img src="\images\DOSS\DO3.png" alt="第二步"><br><img src="\images\DOSS\speedtestsfo.png" alt="SFO测速"><br><img src="\images\DOSS\speedtestsgp.png" alt="SGP测速"></p>
-<h2 id="第三步：选择数量和命名"><a href="#第三步：选择数量和命名" class="headerlink" title="第三步：选择数量和命名"></a>第三步：选择数量和命名</h2><p>&#8195;&#8195;点Create后，大概1分钟，你就拥有了个人VPS。<br><img src="\images\DOSS\DO4.png" alt="第三步"></p>
+<h1 id="Digital-Ocean"><a href="#Digital-Ocean" class="headerlink" title="Digital Ocean"></a>Digital Ocean</h1><p>&#8195;&#8195;拿着GitHub送的Promote Code注册DO就有50美元。这里放上我的邀请注册<a href="https://m.do.co/c/75caa6ef74b7" target="_blank" rel="external">链接</a>，从我的链接点进去注册的话，你就可以得到10$，嘿嘿(手动笑脸)！注册登陆，然后必须先充5$才能激活账号，用信用卡或者PayPal都可以，这样一来一共就有65美元。这些弄好以后就Create Droplet。<br><img src="\images\DOSS\DO1.jpg" alt="Create VPS"></p>
+<h2 id="第一步：选择系统版本和套餐"><a href="#第一步：选择系统版本和套餐" class="headerlink" title="第一步：选择系统版本和套餐"></a>第一步：选择系统版本和套餐</h2><p>&#8195;&#8195;系统版本的话选择Ubuntu、CentOS和Debian比较主流。套餐选$5/mon就够用了，可以用13个月。<br><img src="\images\DOSS\DO2.jpg" alt="第一步"></p>
+<h2 id="第二步：选择机房"><a href="#第二步：选择机房" class="headerlink" title="第二步：选择机房"></a>第二步：选择机房</h2><p>&#8195;&#8195;机房就选在San Francisco，前辈的经验。你可以点进这个<a href="http://speedtest-sfo1.digitalocean.com/" target="_blank" rel="external">链接</a>测速，贴出我的测试效果。Select additional options那一栏，虽然没弄明白都有啥用，只知道第二个大概是系统备份？每月额外收费，所以没有勾选。SSH keys的话，可以暂时不用管。<br><img src="\images\DOSS\DO3.jpg" alt="第二步"><br><img src="\images\DOSS\speedtestsfo.jpg" alt="SFO测速"><br><img src="\images\DOSS\speedtestsgp.jpg" alt="SGP测速"></p>
+<h2 id="第三步：选择数量和命名"><a href="#第三步：选择数量和命名" class="headerlink" title="第三步：选择数量和命名"></a>第三步：选择数量和命名</h2><p>&#8195;&#8195;点Create后，大概1分钟，你就拥有了个人VPS。<br><img src="\images\DOSS\DO4.jpg" alt="第三步"></p>
 <h1 id="PuTTY-amp-PSFTP"><a href="#PuTTY-amp-PSFTP" class="headerlink" title="PuTTY &amp; PSFTP"></a>PuTTY &amp; PSFTP</h1><h1 id="Shadow-Socks"><a href="#Shadow-Socks" class="headerlink" title="Shadow Socks"></a>Shadow Socks</h1><p>— 待续 —</p>
 
       
