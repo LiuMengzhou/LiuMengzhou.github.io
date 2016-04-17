@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://geeookliu.me/"/>
-  <updated>2016-04-17T12:14:17.786Z</updated>
+  <updated>2016-04-17T12:24:44.708Z</updated>
   <id>http://geeookliu.me/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://geeookliu.me/posts/VPS/2016-04-12-Digital-Ocean-and-Shadow-Socks-%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91.html"/>
     <id>http://geeookliu.me/posts/VPS/2016-04-12-Digital-Ocean-and-Shadow-Socks-科学上网.html</id>
     <published>2016-04-12T05:59:58.000Z</published>
-    <updated>2016-04-17T12:14:17.786Z</updated>
+    <updated>2016-04-17T12:24:44.708Z</updated>
     
     <content type="html">&lt;p&gt;&amp;#8195;&amp;#8195;大龙哥的SS快到期了，不能继续蹭了。所以今天下午用在自己在DO上申请的VPS上搭了SS。本来以为会很难，毕竟大龙哥说还要学Linux命令以及这种事情看起来只有像健哥那种大神才会鼓捣。不过既然买了VPS，不用也浪费了。试试，不行就算。搭好以后发现其实并不难，涉及的linux命令并不多。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&quot;相关链接&quot;&gt;&lt;a href=&quot;#相关链接&quot; class=&quot;headerlink&quot; title=&quot;相关链接&quot;&gt;&lt;/a&gt;相关链接&lt;/h1&gt;&lt;ol&gt;
@@ -35,8 +35,8 @@
 &lt;h2 id=&quot;第二步：选择机房&quot;&gt;&lt;a href=&quot;#第二步：选择机房&quot; class=&quot;headerlink&quot; title=&quot;第二步：选择机房&quot;&gt;&lt;/a&gt;第二步：选择机房&lt;/h2&gt;&lt;p&gt;&amp;#8195;&amp;#8195;机房就选在San Francisco，前辈的经验。你可以点进这个&lt;a href=&quot;http://speedtest-sfo1.digitalocean.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;链接&lt;/a&gt;测速，贴出我的测试效果。Select additional options那一栏，虽然没弄明白都有啥用，只知道第二个大概是系统备份？每月额外收费，所以没有勾选。SSH keys的话，可以暂时不用管。&lt;br&gt;&lt;img src=&quot;\images\DOSS\DO3.jpg&quot; alt=&quot;第二步&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;font color=&quot;grey&quot; size=&quot;4&quot;&gt;&lt;br&gt;——————————————————————————-&lt;/font&gt;&lt;br&gt;&lt;img src=&quot;\images\DOSS\speedtestsfo.jpg&quot; alt=&quot;SFO测速&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;font color=&quot;grey&quot; size=&quot;4&quot;&gt;&lt;br&gt;——————————————————————————-&lt;/font&gt;&lt;br&gt;&lt;img src=&quot;\images\DOSS\speedtestsgp.jpg&quot; alt=&quot;SGP测速&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;第三步：选择数量和命名&quot;&gt;&lt;a href=&quot;#第三步：选择数量和命名&quot; class=&quot;headerlink&quot; title=&quot;第三步：选择数量和命名&quot;&gt;&lt;/a&gt;第三步：选择数量和命名&lt;/h2&gt;&lt;p&gt;&amp;#8195;&amp;#8195;点Create后，大概1分钟，你就拥有了个人VPS。按照我粗浅的理解，就是你在旧金山的某个机房有了一台一直为你运行的主机，哈哈~~然后应该能收到一封邮件，里面有刚才新建的VPS的用户名（一般都是root）和密码。&lt;br&gt;&lt;img src=&quot;\images\DOSS\DO4.jpg&quot; alt=&quot;第三步&quot;&gt;&lt;/p&gt;
-&lt;h1 id=&quot;PuTTY-amp-PSFTP&quot;&gt;&lt;a href=&quot;#PuTTY-amp-PSFTP&quot; class=&quot;headerlink&quot; title=&quot;PuTTY &amp;amp; PSFTP&quot;&gt;&lt;/a&gt;PuTTY &amp;amp; PSFTP&lt;/h1&gt;&lt;h2 id=&quot;下载安装&quot;&gt;&lt;a href=&quot;#下载安装&quot; class=&quot;headerlink&quot; title=&quot;下载安装&quot;&gt;&lt;/a&gt;下载安装&lt;/h2&gt;&lt;p&gt;&amp;#8195;&amp;#8195;有了这么一台你摸不到的主机，怎么管理它？不可能你跑到旧金山，对吧，所以就得在你的电脑上远程管理。这种软件有很多，我也忘了当时怎么就下载了这个PuTTY。大概说一下，PuTTY的功能就是通过SSH连接远程VPS进行管理，比如安装和卸载软件（等会安装SS）、创建和删除文件等等。而PSFTP的功能是将自己电脑上的文件与VPS上的文件互传。可以看官方的介绍。&lt;br&gt;&lt;img src=&quot;\images\PuTTYIntro.jpg&quot; alt=&quot;介绍&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;第三步：选择数量和命名&quot;&gt;&lt;a href=&quot;#第三步：选择数量和命名&quot; class=&quot;headerlink&quot; title=&quot;第三步：选择数量和命名&quot;&gt;&lt;/a&gt;第三步：选择数量和命名&lt;/h2&gt;&lt;p&gt;&amp;#8195;&amp;#8195;点Create后，大概1分钟，你就拥有了个人VPS。按照我粗浅的理解，就是你在旧金山的某个机房有了一台一直为你运行的主机，哈哈~~然后应该能收到一封邮件，里面有刚才新建的VPS的用户名（一般都是root）和密码。&lt;br&gt;&lt;img src=&quot;\images\DOSS\DO4.jpg&quot; alt=&quot;第三步&quot;&gt;&lt;br&gt;&lt;img src=&quot;\images\DOSS\VPS用户名密码.jpg&quot; alt=&quot;VPS用户名密码&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;PuTTY-amp-PSFTP&quot;&gt;&lt;a href=&quot;#PuTTY-amp-PSFTP&quot; class=&quot;headerlink&quot; title=&quot;PuTTY &amp;amp; PSFTP&quot;&gt;&lt;/a&gt;PuTTY &amp;amp; PSFTP&lt;/h1&gt;&lt;h2 id=&quot;下载安装&quot;&gt;&lt;a href=&quot;#下载安装&quot; class=&quot;headerlink&quot; title=&quot;下载安装&quot;&gt;&lt;/a&gt;下载安装&lt;/h2&gt;&lt;p&gt;&amp;#8195;&amp;#8195;有了这么一台你摸不到的主机，怎么管理它？不可能你跑到旧金山，对吧，所以就得在你的电脑上远程管理。这种软件有很多，我也忘了当时怎么就下载了这个PuTTY。大概说一下，PuTTY的功能就是通过SSH连接远程VPS进行管理，比如安装和卸载软件（等会安装SS）、创建和删除文件等等。而PSFTP的功能是将自己电脑上的文件与VPS上的文件互传。可以看官方的介绍。&lt;br&gt;&lt;img src=&quot;\images\DOSS\PuTTYIntro.jpg&quot; alt=&quot;介绍&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&amp;#8195;&amp;#8195;下载链接放在上面的 &lt;em&gt;相关链接&lt;/em&gt;中。绿色的是稳定版，红色的是开发版。选择稳定安装版(.msi || .exe)，如下图所示。也可以只下载PuTTY &amp;amp; PSFTP这两个就行。&lt;br&gt;&lt;img src=&quot;\images\DOSS\PuTTY.jpg&quot; alt=&quot;PuTTY&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;使用说明&quot;&gt;&lt;a href=&quot;#使用说明&quot; class=&quot;headerlink&quot; title=&quot;使用说明&quot;&gt;&lt;/a&gt;使用说明&lt;/h2&gt;&lt;p&gt;&amp;#8195;&amp;#8195;接下来说说怎么用吧。打开PuTTY，按照常理，首先你得告诉你的VPS在哪（IP）对吧？然后你得让它相信你是这个VPS的Admin（SSH Key或者密码）对吧？我试了试用SSH Key实现免密码登录，失败了。所以就还是用账号密码登录吧。如下图所示，填好ip地址，端口默认，取个session的名字，比如我的就是MyDroplet，然后点Save，最后点Open。进入操作命令界面，输入用户名：root，密码填邮件给的密码，我记得第一次登录需要修改密码。&lt;br&gt;&lt;img src=&quot;\images\DOSS\PuTTY登录步骤.jpg&quot; alt=&quot;PuTTY登录步骤&quot;&gt;&lt;br&gt;&lt;img src=&quot;\images\DOSS\PuTTY登录成功.jpg&quot; alt=&quot;PuTTY登录成功&quot;&gt;&lt;/p&gt;
 &lt;h1 id=&quot;Shadow-Socks&quot;&gt;&lt;a href=&quot;#Shadow-Socks&quot; class=&quot;headerlink&quot; title=&quot;Shadow Socks&quot;&gt;&lt;/a&gt;Shadow Socks&lt;/h1&gt;&lt;p&gt;— 待续 —&lt;/p&gt;
@@ -229,9 +229,9 @@
       <category term="PAT" scheme="http://geeookliu.me/categories/PAT/"/>
     
     
-      <category term="PAT" scheme="http://geeookliu.me/tags/PAT/"/>
-    
       <category term="C++" scheme="http://geeookliu.me/tags/C/"/>
+    
+      <category term="PAT" scheme="http://geeookliu.me/tags/PAT/"/>
     
       <category term="排序算法" scheme="http://geeookliu.me/tags/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
     
@@ -316,9 +316,9 @@
       <category term="PAT" scheme="http://geeookliu.me/categories/PAT/"/>
     
     
-      <category term="计划" scheme="http://geeookliu.me/tags/%E8%AE%A1%E5%88%92/"/>
-    
       <category term="PAT" scheme="http://geeookliu.me/tags/PAT/"/>
+    
+      <category term="计划" scheme="http://geeookliu.me/tags/%E8%AE%A1%E5%88%92/"/>
     
       <category term="学习之路" scheme="http://geeookliu.me/tags/%E5%AD%A6%E4%B9%A0%E4%B9%8B%E8%B7%AF/"/>
     

@@ -18,11 +18,12 @@
 <meta property="og:image" content="http://geeookliu.me/\images\DOSS\speedtestsfo.jpg">
 <meta property="og:image" content="http://geeookliu.me/\images\DOSS\speedtestsgp.jpg">
 <meta property="og:image" content="http://geeookliu.me/\images\DOSS\DO4.jpg">
-<meta property="og:image" content="http://geeookliu.me/\images\PuTTYIntro.jpg">
+<meta property="og:image" content="http://geeookliu.me/\images\DOSS\VPS用户名密码.jpg">
+<meta property="og:image" content="http://geeookliu.me/\images\DOSS\PuTTYIntro.jpg">
 <meta property="og:image" content="http://geeookliu.me/\images\DOSS\PuTTY.jpg">
 <meta property="og:image" content="http://geeookliu.me/\images\DOSS\PuTTY登录步骤.jpg">
 <meta property="og:image" content="http://geeookliu.me/\images\DOSS\PuTTY登录成功.jpg">
-<meta property="og:updated_time" content="2016-04-17T12:14:17.786Z">
+<meta property="og:updated_time" content="2016-04-17T12:24:44.708Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Digital Ocean and Shadow Socks 科学上网">
 <meta name="twitter:description" content="&amp;#8195;&amp;#8195;大龙哥的SS快到期了，不能继续蹭了。所以今天下午用在自己在DO上申请的VPS上搭了SS。本来以为会很难，毕竟大龙哥说还要学Linux命令以及这种事情看起来只有像健哥那种大神才会鼓捣。不过既然买了VPS，不用也浪费了。试试，不行就算。搭好以后发现其实并不难，涉及的linux命令并不多。">
@@ -278,8 +279,8 @@
 <h2 id="第二步：选择机房"><a href="#第二步：选择机房" class="headerlink" title="第二步：选择机房"></a>第二步：选择机房</h2><p>&#8195;&#8195;机房就选在San Francisco，前辈的经验。你可以点进这个<a href="http://speedtest-sfo1.digitalocean.com/" target="_blank" rel="external">链接</a>测速，贴出我的测试效果。Select additional options那一栏，虽然没弄明白都有啥用，只知道第二个大概是系统备份？每月额外收费，所以没有勾选。SSH keys的话，可以暂时不用管。<br><img src="\images\DOSS\DO3.jpg" alt="第二步"></p>
 <p><font color="grey" size="4"><br>——————————————————————————-</font><br><img src="\images\DOSS\speedtestsfo.jpg" alt="SFO测速"></p>
 <p><font color="grey" size="4"><br>——————————————————————————-</font><br><img src="\images\DOSS\speedtestsgp.jpg" alt="SGP测速"></p>
-<h2 id="第三步：选择数量和命名"><a href="#第三步：选择数量和命名" class="headerlink" title="第三步：选择数量和命名"></a>第三步：选择数量和命名</h2><p>&#8195;&#8195;点Create后，大概1分钟，你就拥有了个人VPS。按照我粗浅的理解，就是你在旧金山的某个机房有了一台一直为你运行的主机，哈哈~~然后应该能收到一封邮件，里面有刚才新建的VPS的用户名（一般都是root）和密码。<br><img src="\images\DOSS\DO4.jpg" alt="第三步"></p>
-<h1 id="PuTTY-amp-PSFTP"><a href="#PuTTY-amp-PSFTP" class="headerlink" title="PuTTY &amp; PSFTP"></a>PuTTY &amp; PSFTP</h1><h2 id="下载安装"><a href="#下载安装" class="headerlink" title="下载安装"></a>下载安装</h2><p>&#8195;&#8195;有了这么一台你摸不到的主机，怎么管理它？不可能你跑到旧金山，对吧，所以就得在你的电脑上远程管理。这种软件有很多，我也忘了当时怎么就下载了这个PuTTY。大概说一下，PuTTY的功能就是通过SSH连接远程VPS进行管理，比如安装和卸载软件（等会安装SS）、创建和删除文件等等。而PSFTP的功能是将自己电脑上的文件与VPS上的文件互传。可以看官方的介绍。<br><img src="\images\PuTTYIntro.jpg" alt="介绍"></p>
+<h2 id="第三步：选择数量和命名"><a href="#第三步：选择数量和命名" class="headerlink" title="第三步：选择数量和命名"></a>第三步：选择数量和命名</h2><p>&#8195;&#8195;点Create后，大概1分钟，你就拥有了个人VPS。按照我粗浅的理解，就是你在旧金山的某个机房有了一台一直为你运行的主机，哈哈~~然后应该能收到一封邮件，里面有刚才新建的VPS的用户名（一般都是root）和密码。<br><img src="\images\DOSS\DO4.jpg" alt="第三步"><br><img src="\images\DOSS\VPS用户名密码.jpg" alt="VPS用户名密码"></p>
+<h1 id="PuTTY-amp-PSFTP"><a href="#PuTTY-amp-PSFTP" class="headerlink" title="PuTTY &amp; PSFTP"></a>PuTTY &amp; PSFTP</h1><h2 id="下载安装"><a href="#下载安装" class="headerlink" title="下载安装"></a>下载安装</h2><p>&#8195;&#8195;有了这么一台你摸不到的主机，怎么管理它？不可能你跑到旧金山，对吧，所以就得在你的电脑上远程管理。这种软件有很多，我也忘了当时怎么就下载了这个PuTTY。大概说一下，PuTTY的功能就是通过SSH连接远程VPS进行管理，比如安装和卸载软件（等会安装SS）、创建和删除文件等等。而PSFTP的功能是将自己电脑上的文件与VPS上的文件互传。可以看官方的介绍。<br><img src="\images\DOSS\PuTTYIntro.jpg" alt="介绍"></p>
 <p>&#8195;&#8195;下载链接放在上面的 <em>相关链接</em>中。绿色的是稳定版，红色的是开发版。选择稳定安装版(.msi || .exe)，如下图所示。也可以只下载PuTTY &amp; PSFTP这两个就行。<br><img src="\images\DOSS\PuTTY.jpg" alt="PuTTY"></p>
 <h2 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h2><p>&#8195;&#8195;接下来说说怎么用吧。打开PuTTY，按照常理，首先你得告诉你的VPS在哪（IP）对吧？然后你得让它相信你是这个VPS的Admin（SSH Key或者密码）对吧？我试了试用SSH Key实现免密码登录，失败了。所以就还是用账号密码登录吧。如下图所示，填好ip地址，端口默认，取个session的名字，比如我的就是MyDroplet，然后点Save，最后点Open。进入操作命令界面，输入用户名：root，密码填邮件给的密码，我记得第一次登录需要修改密码。<br><img src="\images\DOSS\PuTTY登录步骤.jpg" alt="PuTTY登录步骤"><br><img src="\images\DOSS\PuTTY登录成功.jpg" alt="PuTTY登录成功"></p>
 <h1 id="Shadow-Socks"><a href="#Shadow-Socks" class="headerlink" title="Shadow Socks"></a>Shadow Socks</h1><p>— 待续 —</p>
