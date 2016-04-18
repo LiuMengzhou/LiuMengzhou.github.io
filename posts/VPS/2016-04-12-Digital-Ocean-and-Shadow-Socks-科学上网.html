@@ -24,17 +24,17 @@
 <meta property="og:image" content="http://geeookliu.me/\images\DOSS\PuTTY登录步骤.jpg">
 <meta property="og:image" content="http://geeookliu.me/\images\DOSS\PuTTY登录成功.jpg">
 <meta property="og:image" content="http://geeookliu.me/\images\DOSS\PIP安装SS.jpg">
-<meta property="og:image" content="http://geeookliu.me/\iamges\DOSS\psftp.jpg">
+<meta property="og:image" content="http://geeookliu.me/\images\DOSS\psftp.jpg">
 <meta property="og:image" content="http://geeookliu.me/\images\DOSS\SS电脑客户端配置服务器.jpg">
 <meta property="og:image" content="http://geeookliu.me/\images\DOSS\SwitchyOmega1.jpg">
 <meta property="og:image" content="http://geeookliu.me/\images\DOSS\SwitchyOmega2.jpg">
 <meta property="og:image" content="http://geeookliu.me/\images\DOSS\SwitchyOmega3.jpg">
 <meta property="og:image" content="http://geeookliu.me/\images\DOSS\SwitchyOmega4.jpg">
 <meta property="og:image" content="http://geeookliu.me/\images\DOSS\导出二维码.jpg">
-<meta property="og:image" content="http://geeookliu.me/\images\DOSS\手机端配置SS1.jpg">
-<meta property="og:image" content="http://geeookliu.me/\images\DOSS\手机端配置SS2.jpg">
-<meta property="og:image" content="http://geeookliu.me/\images\DOSS\手机端配置SS3.jpg">
-<meta property="og:updated_time" content="2016-04-18T03:11:50.870Z">
+<meta property="og:image" content="http://geeookliu.me/\images\DOSS\手机端配置SS1.png">
+<meta property="og:image" content="http://geeookliu.me/\images\DOSS\手机端配置SS2.png">
+<meta property="og:image" content="http://geeookliu.me/\images\DOSS\手机端配置SS3.png">
+<meta property="og:updated_time" content="2016-04-18T03:28:32.474Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Digital Ocean and Shadow Socks 科学上网">
 <meta name="twitter:description" content="&amp;#8195;&amp;#8195;大龙哥的SS快到期了，不能继续蹭了。所以今天下午用在自己在DO上申请的VPS上搭了SS。本来以为会很难，毕竟大龙哥说还要学Linux命令以及这种事情看起来只有像健哥那种大神才会鼓捣。不过既然买了VPS，不用也浪费了。试试，不行就算。搭好以后发现其实并不难，涉及的linux命令并不多。">
@@ -300,18 +300,19 @@
 <p>&#8195;&#8195;如果你创建VPS的时候选的是CentOS，那么就执行以下命令。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">python -V//保证Python的版本为2.6或者2.7</span><br><span class="line">yum install python-setuptools &amp;&amp; easy_install pip//安装pip</span><br><span class="line">pip install shadowsocks//用pip安装ss</span><br></pre></td></tr></table></figure></p>
 <p>&#8195;&#8195;这个命令SS官网上也是这么说的：<br><img src="\images\DOSS\PIP安装SS.jpg" alt="PIP安装SS"></p>
 <h2 id="在VPS上配置和启动SS服务端"><a href="#在VPS上配置和启动SS服务端" class="headerlink" title="在VPS上配置和启动SS服务端"></a>在VPS上配置和启动SS服务端</h2><p>&#8195;&#8195;<strong>第一步：</strong>先在自己的电脑上创建一个文本文件，复制粘贴下面这段json代码，另存为shadowsocks.json。<br><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">"server"</span>:<span class="string">"你的服务器ip地址"</span>,</span><br><span class="line">    <span class="attr">"server_port"</span>:<span class="number">8388</span>,</span><br><span class="line">    <span class="attr">"local_address"</span>: <span class="string">"127.0.0.1"</span>,</span><br><span class="line">    <span class="attr">"local_port"</span>:<span class="number">1080</span>,</span><br><span class="line">    <span class="attr">"password"</span>:<span class="string">"设置一个密码"</span>,</span><br><span class="line">    <span class="attr">"timeout"</span>:<span class="number">300</span>,</span><br><span class="line">    <span class="attr">"method"</span>:<span class="string">"aes-256-cfb"</span>,</span><br><span class="line">    <span class="attr">"fast_open"</span>: <span class="literal">false</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<p>&#8195;&#8195;<strong>第二步：</strong><br>打开PuTTY登录以后，输入以下命令，在VPS上新建一个文件夹用来存放刚才的json文件。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdir -p /data/ShadowSocks//新建文件夹</span><br><span class="line">cd /data/ShadowSocks//跳转到新建文件夹的路径下</span><br></pre></td></tr></table></figure></p>
-<p>&#8195;&#8195;<strong>第三步：</strong><br>打开psftp.exe，登录步骤如图。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">open 你的VPSip</span><br><span class="line">login as：root</span><br><span class="line">然后输入密码</span><br></pre></td></tr></table></figure></p>
-<p><img src="\iamges\DOSS\psftp.jpg" alt="psftp"><br>&#8195;&#8195;然后用put命令把本机的json文件传给VPS刚才新建的文件夹下面。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">put &quot;d:\shadowsocks.json&quot; &quot;/data/ShadowSocks/shadowsocks.json&quot;//我把新建的shadowsocks.json放在了D根目录。</span><br></pre></td></tr></table></figure></p>
-<p>&#8195;&#8195;成功的话提示</p>
+<p>&#8195;&#8195;<strong>第二步：</strong>打开PuTTY登录以后，输入以下命令，在VPS上新建一个文件夹用来存放刚才的json文件。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdir -p /data/ShadowSocks//新建文件夹</span><br><span class="line">cd /data/ShadowSocks//跳转到新建文件夹的路径下</span><br></pre></td></tr></table></figure></p>
+<p>&#8195;&#8195;<strong>第三步：</strong>打开psftp.exe，登录步骤如图。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">open 你的VPSip</span><br><span class="line">login as：root</span><br><span class="line">然后输入密码</span><br></pre></td></tr></table></figure></p>
+<p><img src="\images\DOSS\psftp.jpg" alt="psftp"><br>然后用put命令把本机的json文件传给VPS刚才新建的文件夹下面。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">put &quot;d:\shadowsocks.json&quot; &quot;/data/ShadowSocks/shadowsocks.json&quot;//我把新建的shadowsocks.json放在了D根目录。</span><br></pre></td></tr></table></figure></p>
+<p>成功的话提示</p>
 <blockquote>
 <p>local:d:\shadowsocks.json =&gt; remote:/data/ShadowSocks/shadowsocks.json</p>
 </blockquote>
-<p>&#8195;&#8195;<strong>第四步：</strong><br>在PuTTY中执行下面这条命令：</p>
+<p>&#8195;&#8195;<strong>第四步：</strong>在PuTTY中执行下面这条命令：</p>
 <blockquote>
 <p>ssserver -c /data/ShadowSocks/shadowsocks.json -d start//后台运行</p>
 </blockquote>
-<h2 id="在电脑或者手机上安装和配置SS客户端"><a href="#在电脑或者手机上安装和配置SS客户端" class="headerlink" title="在电脑或者手机上安装和配置SS客户端"></a>在电脑或者手机上安装和配置SS客户端</h2><p>下载链接：<br><a href="https://github.com/shadowsocks/shadowsocks-windows/releases" target="_blank" rel="external">Windows</a><br><a href="https://github.com/shadowsocks/shadowsocks-android/releases" target="_blank" rel="external">Android</a><br>电脑端配置:<br><img src="\images\DOSS\SS电脑客户端配置服务器.jpg" alt="SS电脑客户端配置服务器"><br>Chrome配置：(别告诉我你不用Chrome这么牛逼的浏览器= =、)<br>下载扩展程序SwitchyOmega<br><img src="\images\DOSS\SwitchyOmega1.jpg" alt="SwitchyOmega1"><br><img src="\images\DOSS\SwitchyOmega2.jpg" alt="SwitchyOmega2"><br><img src="\images\DOSS\SwitchyOmega3.jpg" alt="SwitchyOmega3"><br><img src="\images\DOSS\SwitchyOmega4.jpg" alt="SwitchyOmega4"><br>手机端配置：<br>首先在电脑端导出二维码<br><img src="\images\DOSS\导出二维码.jpg" alt="导出二维码"><br>打开手机SS<br><img src="\images\DOSS\手机端配置SS1.jpg" alt="手机端配置SS1"><br><img src="\images\DOSS\手机端配置SS2.jpg" alt="手机端配置SS2"><br><img src="\images\DOSS\手机端配置SS3.jpg" alt="手机端配置SS3"></p>
+<h2 id="在电脑或者手机上安装和配置SS客户端"><a href="#在电脑或者手机上安装和配置SS客户端" class="headerlink" title="在电脑或者手机上安装和配置SS客户端"></a>在电脑或者手机上安装和配置SS客户端</h2><p><strong>下载链接：</strong><br><a href="https://github.com/shadowsocks/shadowsocks-windows/releases" target="_blank" rel="external">Windows</a><br><a href="https://github.com/shadowsocks/shadowsocks-android/releases" target="_blank" rel="external">Android</a><br><strong>电脑端配置:</strong><br><img src="\images\DOSS\SS电脑客户端配置服务器.jpg" alt="SS电脑客户端配置服务器"><br><strong>Chrome配置：</strong>(别告诉我你不用Chrome这么牛逼的浏览器= =、)<br>下载扩展程序SwitchyOmega<br><img src="\images\DOSS\SwitchyOmega1.jpg" alt="SwitchyOmega1"><br><img src="\images\DOSS\SwitchyOmega2.jpg" alt="SwitchyOmega2"><br><img src="\images\DOSS\SwitchyOmega3.jpg" alt="SwitchyOmega3"><br><img src="\images\DOSS\SwitchyOmega4.jpg" alt="SwitchyOmega4"><br><strong>手机端配置：</strong><br>首先在电脑端导出二维码<br><img src="\images\DOSS\导出二维码.jpg" alt="导出二维码"><br>打开手机SS<br><img src="\images\DOSS\手机端配置SS1.png" alt="手机端配置SS1"><br><img src="\images\DOSS\手机端配置SS2.png" alt="手机端配置SS2"><br><img src="\images\DOSS\手机端配置SS3.png" alt="手机端配置SS3"></p>
+<p>— end —<br>分了四次，终于写完了，以后一定要记得随时截图保存，好多东西都是不可复现的。。。</p>
 
       
     </div>
