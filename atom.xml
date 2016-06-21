@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://geeookliu.me/"/>
-  <updated>2016-05-05T05:22:09.799Z</updated>
+  <updated>2016-05-05T05:22:09.000Z</updated>
   <id>http://geeookliu.me/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://geeookliu.me/posts/uncategorized/2016-05-05-spring%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html"/>
     <id>http://geeookliu.me/posts/uncategorized/2016-05-05-spring学习笔记.html</id>
     <published>2016-05-05T05:22:09.000Z</published>
-    <updated>2016-05-05T05:22:09.799Z</updated>
+    <updated>2016-05-05T05:22:09.000Z</updated>
     
     <content type="html"></content>
     
@@ -36,7 +36,7 @@
     <link href="http://geeookliu.me/posts/ReadingNotes/2016-04-26-%E6%97%B6%E9%97%B4%E9%83%BD%E5%8E%BB%E5%93%AA%E5%84%BF%E4%BA%86.html"/>
     <id>http://geeookliu.me/posts/ReadingNotes/2016-04-26-时间都去哪儿了.html</id>
     <published>2016-04-26T14:05:22.000Z</published>
-    <updated>2016-04-27T07:48:55.443Z</updated>
+    <updated>2016-04-27T07:48:55.000Z</updated>
     
     <content type="html">&lt;p&gt;&amp;#8195;&amp;#8195;是不是经常感觉一天啥也没干时间就过去了？是否曾有过在某项工作或某个领域投入了一段时间却看不到成效的经历？恩，我也是这样，而且常常发生。不过我最近读了一本书，在书中我找到了答案。&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;这本书就是刘未鹏写的&lt;a href=&quot;http://readcolor.com/books/51582dc082be9c4d04000021&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;《暗时间》&lt;/a&gt;因为书我还没看完，所以先不做评价，也不安利。需要的话可以点书名链接自行下载。&lt;/p&gt;
 &lt;h1 id=&quot;Time-is-not-fair&quot;&gt;&lt;a href=&quot;#Time-is-not-fair&quot; class=&quot;headerlink&quot; title=&quot;Time is not fair&quot;&gt;&lt;/a&gt;Time is not fair&lt;/h1&gt;&lt;p&gt;&amp;#8195;&amp;#8195;先说说什么是“暗时间”。根据我对书中的描述粗浅的理解，暗时间就是看不见的时间，就是思维工作的时间。我们总说时间是公平的，表面上看是这样的。你一天24小时，我一天也24小时，但撇开那种（恨不得把一刻钟当一小时用的）工作狂不谈，时间也是不公平的。因为有的人善于利用思维时间，这样无形之中就比别人多出很多时间。他们总是在零碎的时间思考、总结、推理。书中有这样一段话。&lt;/p&gt;
@@ -98,7 +98,7 @@
     <link href="http://geeookliu.me/posts/VPS/2016-04-12-Digital-Ocean-and-Shadow-Socks-%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91.html"/>
     <id>http://geeookliu.me/posts/VPS/2016-04-12-Digital-Ocean-and-Shadow-Socks-科学上网.html</id>
     <published>2016-04-12T05:59:58.000Z</published>
-    <updated>2016-04-18T03:28:32.474Z</updated>
+    <updated>2016-04-18T03:28:32.000Z</updated>
     
     <content type="html">&lt;p&gt;&amp;#8195;&amp;#8195;大龙哥的SS快到期了，不能继续蹭了。所以今天下午用在自己在DO上申请的VPS上搭了SS。本来以为会很难，毕竟大龙哥说还要学Linux命令以及这种事情看起来只有像健哥那种大神才会鼓捣。不过既然买了VPS，不用也浪费了。试试，不行就算。搭好以后发现其实并不难，涉及的linux命令并不多。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&quot;相关链接&quot;&gt;&lt;a href=&quot;#相关链接&quot; class=&quot;headerlink&quot; title=&quot;相关链接&quot;&gt;&lt;/a&gt;相关链接&lt;/h1&gt;&lt;ol&gt;
@@ -152,110 +152,6 @@
       <category term="ShadowSocks" scheme="http://geeookliu.me/tags/ShadowSocks/"/>
     
       <category term="VPS" scheme="http://geeookliu.me/tags/VPS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>上天竺法喜寺</title>
-    <link href="http://geeookliu.me/posts/life/2016-04-09-%E4%B8%8A%E5%A4%A9%E7%AB%BA%E6%B3%95%E5%96%9C%E5%AF%BA.html"/>
-    <id>http://geeookliu.me/posts/life/2016-04-09-上天竺法喜寺.html</id>
-    <published>2016-04-09T06:52:24.000Z</published>
-    <updated>2016-04-10T06:37:01.000Z</updated>
-    
-    <content type="html">&lt;p&gt;&amp;#8195;&amp;#8195;杭州市天竺山有著名三寺，时称“天竺三寺”（上天竺法喜寺、中天竺法净寺、下天竺法镜寺）。据《湖山胜概称》&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;由月桂峰迤西入佛国山，自下竺，过中竺，至上竺而止。上竺则观音灵感，下竺则古迹为胜，三竺之间，云影天光，泉声松籁，岑寂岛空，香凝钟静，耳目心神之会，觉其迷极其光者，岂不超三界外乎。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&amp;#8195;&amp;#8195;据《武林旧事》&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;三寺相去里许，皆极宏丽，晨钟暮鼓，彼此间作，高僧徒侣，相聚梵肤，真佛国也。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;&amp;#8195;&amp;#8195;今天和大龙哥骑自行车去了法喜寺，一路上坡，好不辛苦。路上旅人众多，其中不乏上了年纪的信徒，还有三两僧侣。是不是上了年纪的人都信佛？还是说信仰这种东西，只有经历世事以后才能慢慢建立起来？反观没有任何信仰的自己，我从心底感到难过。&lt;br&gt;&amp;#8195;&amp;#8195;路过中天竺，再骑过不算很长的曲折坡路，终于来到寺庙门前，牌匾上赫然七个大字“上天竺法喜禅寺”。虽然没有那些大寺庙那么气派，但也不失庄重。买票进入寺庙，寺庙并不大，顺着指示牌进入庙堂，一路向上三个大殿分别供奉着四大天王、佛和菩萨。因为不信，所以也就没有进去跪拜。&lt;br&gt;&lt;img src=&quot;\images\莫向外求.jpg&quot; alt=&quot;莫向外求&quot;&gt;&lt;br&gt;寺内环境幽雅，很舒服。空气中弥漫着让人安静的味道。&lt;br&gt;&lt;img src=&quot;\images\寺内一景.jpg&quot; alt=&quot;寺内一景&quot;&gt;&lt;br&gt;还有随处可见的标语。&lt;br&gt;&lt;img src=&quot;\images\打油诗.jpg&quot; alt=&quot;打油诗&quot;&gt;&lt;br&gt;&amp;#8195;&amp;#8195;佛家的思想就是无欲无求，极度自律。无欲无求暂时还做不到，只希望能尽快找到自己的信仰，做一个自律的人，因为越自律的人越自由。&lt;br&gt;&amp;#8195;&amp;#8195;本来去法喜寺的一个目的就是尝尝斋饭，等到出了出口才想起来，可是看门大爷已经不让进了，只能说无缘，就此作罢，下次再说吧。回去路上，再一次印证什么叫先苦后甜。&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&amp;#8195;&amp;#8195;杭州市天竺山有著名三寺，时称“天竺三寺”（上天竺法喜寺、中天竺法净寺、下天竺法镜寺）。据《湖山胜概称》&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;由月桂峰迤西入佛国山，自下竺，过中竺，至上竺而止。上竺则观音灵感，下竺则古迹为胜，三竺之间，云影天光，泉声松籁，岑寂岛空，香凝钟静，耳目心神之会，觉其迷极其光者，岂不超三界外乎。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&amp;#8195;&amp;#8195;据《武林旧事》&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;三寺相去里许，皆极宏丽，晨钟暮鼓，彼此间作，高僧徒侣，相聚梵肤，真佛国也。&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-      <category term="life" scheme="http://geeookliu.me/categories/life/"/>
-    
-    
-      <category term="life" scheme="http://geeookliu.me/tags/life/"/>
-    
-      <category term="杭州景点" scheme="http://geeookliu.me/tags/%E6%9D%AD%E5%B7%9E%E6%99%AF%E7%82%B9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>All my friends are dead</title>
-    <link href="http://geeookliu.me/posts/life/2016-04-02-All-my-friends-are-dead.html"/>
-    <id>http://geeookliu.me/posts/life/2016-04-02-All-my-friends-are-dead.html</id>
-    <published>2016-04-02T03:20:19.000Z</published>
-    <updated>2016-04-02T07:12:17.000Z</updated>
-    
-    <content type="html">&lt;p&gt;&amp;#8195;&amp;#8195;&lt;font size=&quot;5&quot; color=&quot;#b3cccc&quot;&gt;我所有的朋友都死了&lt;/font&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;，是一本漫画的名字。我的朋友们都很好，不用担心。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;\images\cartoon\封面.jpg&quot; alt=&quot;封面&quot;&gt;&lt;br&gt;&lt;img src=&quot;\images\cartoon\alone.jpg&quot; alt=&quot;alone&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&amp;#8195;&amp;#8195;逛知乎的时候，偶然看见有人推荐了这本黑色漫画，便买来看了。&lt;/p&gt;
-&lt;h1 id=&quot;灭绝的恐龙&quot;&gt;&lt;a href=&quot;#灭绝的恐龙&quot; class=&quot;headerlink&quot; title=&quot;灭绝的恐龙&quot;&gt;&lt;/a&gt;灭绝的恐龙&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;\images\cartoon\恐龙.jpg&quot; alt=&quot;恐龙&quot;&gt;&lt;/p&gt;
-&lt;h1 id=&quot;肯德基的鸡&quot;&gt;&lt;a href=&quot;#肯德基的鸡&quot; class=&quot;headerlink&quot; title=&quot;肯德基的鸡&quot;&gt;&lt;/a&gt;肯德基的鸡&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;\images\cartoon\kfc.jpg&quot; alt=&quot;kfc&quot;&gt;&lt;/p&gt;
-&lt;h1 id=&quot;人之将死&quot;&gt;&lt;a href=&quot;#人之将死&quot; class=&quot;headerlink&quot; title=&quot;人之将死&quot;&gt;&lt;/a&gt;人之将死&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;\images\cartoon\死神和老人1.jpg&quot; alt=&quot;死神和老人&quot;&gt;&lt;br&gt;&lt;img src=&quot;\images\cartoon\死神和老人2.jpg&quot; alt=&quot;死神和老人&quot;&gt;&lt;/p&gt;
-&lt;h1 id=&quot;健忘的金鱼&quot;&gt;&lt;a href=&quot;#健忘的金鱼&quot; class=&quot;headerlink&quot; title=&quot;健忘的金鱼&quot;&gt;&lt;/a&gt;健忘的金鱼&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;\images\cartoon\金鱼1.jpg&quot; alt=&quot;金鱼&quot;&gt;&lt;br&gt;&lt;img src=&quot;\images\cartoon\金鱼2.jpg&quot; alt=&quot;金鱼&quot;&gt;&lt;/p&gt;
-&lt;h1 id=&quot;写诗的宅男&quot;&gt;&lt;a href=&quot;#写诗的宅男&quot; class=&quot;headerlink&quot; title=&quot;写诗的宅男&quot;&gt;&lt;/a&gt;写诗的宅男&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;\images\cartoon\宅男1.jpg&quot; alt=&quot;宅男&quot;&gt;&lt;br&gt;&lt;img src=&quot;\images\cartoon\宅男2.jpg&quot; alt=&quot;宅男&quot;&gt;&lt;br&gt;&lt;strong&gt;还是要多出去走走，不出去怎么会有女朋友。&lt;/strong&gt;&lt;/p&gt;
-&lt;h1 id=&quot;猪和培根&quot;&gt;&lt;a href=&quot;#猪和培根&quot; class=&quot;headerlink&quot; title=&quot;猪和培根&quot;&gt;&lt;/a&gt;猪和培根&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;\images\cartoon\猪和培根1.jpg&quot; alt=&quot;猪和培根&quot;&gt;&lt;br&gt;&lt;img src=&quot;\images\cartoon\猪和培根2.jpg&quot; alt=&quot;猪和培根&quot;&gt;&lt;/p&gt;
-&lt;h1 id=&quot;中奖的彩票&quot;&gt;&lt;a href=&quot;#中奖的彩票&quot; class=&quot;headerlink&quot; title=&quot;中奖的彩票&quot;&gt;&lt;/a&gt;中奖的彩票&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;\images\cartoon\彩票1.jpg&quot; alt=&quot;彩票&quot;&gt;&lt;br&gt;&lt;img src=&quot;\images\cartoon\彩票2.jpg&quot; alt=&quot;彩票&quot;&gt;&lt;br&gt;&lt;img src=&quot;\images\cartoon\彩票3.jpg&quot; alt=&quot;彩票&quot;&gt;&lt;br&gt;&lt;strong&gt;命是败者借口，运乃胜者谦辞&lt;/strong&gt;&lt;/p&gt;
-&lt;h1 id=&quot;秀恩爱&quot;&gt;&lt;a href=&quot;#秀恩爱&quot; class=&quot;headerlink&quot; title=&quot;秀恩爱&quot;&gt;&lt;/a&gt;秀恩爱&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;\images\cartoon\秀恩爱1.jpg&quot; alt=&quot;秀恩爱&quot;&gt;&lt;br&gt;&lt;img src=&quot;\images\cartoon\秀恩爱2.jpg&quot; alt=&quot;秀恩爱&quot;&gt;&lt;br&gt;&lt;img src=&quot;\images\cartoon\秀恩爱3.jpg&quot; alt=&quot;秀恩爱&quot;&gt;&lt;br&gt;&lt;strong&gt;我们就是故意的，哈哈哈！&lt;/strong&gt;&lt;/p&gt;
-&lt;h1 id=&quot;孤独的机器人&quot;&gt;&lt;a href=&quot;#孤独的机器人&quot; class=&quot;headerlink&quot; title=&quot;孤独的机器人&quot;&gt;&lt;/a&gt;孤独的机器人&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;\images\cartoon\机器人1.jpg&quot; alt=&quot;机器人&quot;&gt;&lt;br&gt;&lt;img src=&quot;\images\cartoon\机器人2.jpg&quot; alt=&quot;机器人&quot;&gt;&lt;br&gt;&lt;img src=&quot;\images\cartoon\机器人3.jpg&quot; alt=&quot;机器人&quot;&gt;&lt;br&gt;&lt;img src=&quot;\images\cartoon\机器人4.jpg&quot; alt=&quot;机器人&quot;&gt;&lt;br&gt;&lt;strong&gt;大写的心疼&lt;/strong&gt;&lt;/p&gt;
-&lt;h1 id=&quot;树和茶几&quot;&gt;&lt;a href=&quot;#树和茶几&quot; class=&quot;headerlink&quot; title=&quot;树和茶几&quot;&gt;&lt;/a&gt;树和茶几&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;\images\cartoon\树和茶几1.jpg&quot; alt=&quot;树和茶几&quot;&gt;&lt;br&gt;&lt;img src=&quot;\images\cartoon\树和茶几2.jpg&quot; alt=&quot;树和茶几&quot;&gt;&lt;br&gt;&lt;img src=&quot;\images\cartoon\树和茶几3.jpg&quot; alt=&quot;树和茶几&quot;&gt;&lt;br&gt;&lt;img src=&quot;\images\cartoon\树和茶几4.jpg&quot; alt=&quot;树和茶几&quot;&gt;&lt;br&gt;&lt;img src=&quot;\images\cartoon\树和茶几5.jpg&quot; alt=&quot;树和茶几&quot;&gt;&lt;br&gt;&lt;strong&gt;树的内心自白还是蛮不错的，挺治愈。让我想起了舒婷的致橡树。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&amp;#8195;&amp;#8195;最后还是推荐一首歌：&lt;a href=&quot;http://music.163.com/#/m/song?id=31356499&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Waiting For Love&lt;/a&gt;。现场版的简直了。摘一段我最喜欢的歌词：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Monday left me broken&lt;br&gt;Tuesday I was through with hoping&lt;br&gt;Wednesday my empty arms were open&lt;br&gt;Thursday waiting for love, waiting for love&lt;br&gt;Bang the stars it’s Friday&lt;br&gt;I’m burning like a fire gone wild on Saturday&lt;br&gt;Guess I won’t be coming to church on Sunday&lt;br&gt;I’ll be waiting for love, waiting for love&lt;br&gt;To cover on&lt;/p&gt;
-&lt;/blockquote&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&amp;#8195;&amp;#8195;&lt;font size=&quot;5&quot; color=&quot;#b3cccc&quot;&gt;我所有的朋友都死了&lt;/font&gt;
-    
-    </summary>
-    
-      <category term="life" scheme="http://geeookliu.me/categories/life/"/>
-    
-    
-      <category term="漫画" scheme="http://geeookliu.me/tags/%E6%BC%AB%E7%94%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Surprise</title>
-    <link href="http://geeookliu.me/posts/life/2016-03-30-Surprise.html"/>
-    <id>http://geeookliu.me/posts/life/2016-03-30-Surprise.html</id>
-    <published>2016-03-30T05:55:50.000Z</published>
-    <updated>2016-03-31T07:15:52.586Z</updated>
-    
-    <content type="html">&lt;p&gt;&amp;#8195;&amp;#8195;Surprise！我猜你不敢点开。(•́ ₃ •̀)&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;img src=&quot;\images\红包口令.jpg&quot; alt=&quot;红包口令&quot;&gt;&lt;br&gt;&amp;lt;图片已删&amp;gt;&lt;/p&gt;
-&lt;p&gt;—2016-03-31-update—&lt;br&gt;&amp;#8195;&amp;#8195;Sad！果然没人。(╥﹏╥)&lt;br&gt;&lt;img src=&quot;\images\null.png&quot; alt=&quot;null&quot;&gt;&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&amp;#8195;&amp;#8195;Surprise！我猜你不敢点开。(•́ ₃ •̀)
-    
-    </summary>
-    
-      <category term="life" scheme="http://geeookliu.me/categories/life/"/>
-    
-    
-      <category term="surprise" scheme="http://geeookliu.me/tags/surprise/"/>
     
   </entry>
   
@@ -325,51 +221,11 @@
       <category term="PAT" scheme="http://geeookliu.me/categories/PAT/"/>
     
     
-      <category term="C++" scheme="http://geeookliu.me/tags/C/"/>
-    
       <category term="PAT" scheme="http://geeookliu.me/tags/PAT/"/>
     
+      <category term="C++" scheme="http://geeookliu.me/tags/C/"/>
+    
       <category term="排序算法" scheme="http://geeookliu.me/tags/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>This week（灌水文章，谨慎点击）</title>
-    <link href="http://geeookliu.me/posts/life/2016-03-27-This-week.html"/>
-    <id>http://geeookliu.me/posts/life/2016-03-27-This-week.html</id>
-    <published>2016-03-26T17:00:28.000Z</published>
-    <updated>2016-03-27T13:10:18.000Z</updated>
-    
-    <content type="html">&lt;p&gt;&amp;#8195;&amp;#8195;这周过的真快，真是觉得啥也没干，也没遇见什么好玩的事，所以憋出一篇博客不比我小时候写日记或作文痛苦。不过既然已经在第一篇文章里立下了flag，就一定要坚持。顿时觉得那个每日千字的博主真的是很了不起。&lt;/p&gt;
-&lt;p&gt;&amp;#8195;&amp;#8195;本来以为上周调研的结果应该可以了，这周可以开始干点别的，我还是too young。周日把调研报告发给leader，周三都没人回我，难道是写得太差被邮箱服务器当垃圾邮件了？反正他们不急，我也不急，正好可以搞自己的东西，于是又来我儿子这里玩&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;（= =#这个网站给我的感觉就像当年玩qq宠物和coc一样）。加了favicon和search field两个小东西，估计也没人注意到（别逗了，就没人看好吧）。&lt;/p&gt;
-&lt;p&gt;&amp;#8195;&amp;#8195;在搭自己博客的时候，很有缘地认识了hznu大二的Joway，人挺文艺的而且有点意思，也很有思想。为什么说有缘，是因为我加他好友的时候并不知道他也在杭州，而且他学校就在公司附近，等有机会了可以见一面。左边的友情链接里可以看到他的博客&lt;a href=&quot;https://joway.wang/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JowayW&lt;/a&gt;，可以去看看，有相册，颜值可以和我媲美了！&lt;/p&gt;
-&lt;p&gt;&amp;#8195;&amp;#8195;除了搭这个网站，就是刷PAT了。自从1010受刺激，这周便开始用C++。不过再一次接触启蒙语言，真是最熟悉的陌生人。越往后做，越发觉得本科的C++学到狗肚子里去了（不光C++，本科四年感觉都白过了= =#）。准备开个分类记录一些经典的题目，到时候复习也好用。&lt;/p&gt;
-&lt;p&gt;&amp;#8195;&amp;#8195;到了周三，我主动联系leader，结果果然是“你这个调研不可行，需要blabla…，国内不适用blabla…”，“哦，那我继续调研。”讲真，外国人做研究几十年研究一个模型，我国古代也有四库全书、红楼梦、本草纲目。现在这是咋啦？国内的权威模型是真难找。还是说我没找到？&lt;/p&gt;
-&lt;p&gt;&amp;#8195;&amp;#8195;这周有好几天都是2点左右睡觉，有时候是在做题，有时候是在弄博客，也有的时候在发呆。说实话，熬夜真的容易上瘾，feel free。而且晚上不睡确实容易想得多，想得越多越精神，希望下周能慢慢改过来，养成习惯就不好了。&lt;em&gt;哦，对了。晚上别打开网易云音乐，听歌别听电音！&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&amp;#8195;&amp;#8195;周五的时候nexus 5X到手了。虽然不是给我用的，但仅仅把玩了一小会，我就gc了。&lt;strong&gt;Google大法好！&lt;/strong&gt;等发工资了我就给自己买一个。&lt;/p&gt;
-&lt;p&gt;&amp;#8195;&amp;#8195;然后周末的时候还发生了一件让我又开心又难过的事情，就是发现了两个博客,开心是因为发现了他们的博客，难过是因为他们的年龄。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.anotherhome.net/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;一个活在2.5次元的前端工程师&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://zespia.tw/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo发明者的博客&lt;/a&gt; &amp;lt;-也是活在二次元的2333…&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&amp;#8195;&amp;#8195;没有营养的东西写完了，推荐一首歌：&lt;a href=&quot;http://music.163.com/#/song?id=31997589&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;disconnected&lt;/a&gt;，下班的时候和飞起来的公交一起听更配哦！&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&amp;#8195;&amp;#8195;这周过的真快，真是觉得啥也没干，也没遇见什么好玩的事，所以憋出一篇博客不比我小时候写日记或作文痛苦。不过既然已经在第一篇文章里立下了flag，就一定要坚持。顿时觉得那个每日千字的博主真的是很了不起。&lt;/p&gt;
-&lt;p&gt;&amp;#8195;&amp;#8195;本来以为上周调研的结果应该可以了，这周可以开始干点别的，我还是too young。周日把调研报告发给leader，周三都没人回我，难道是写得太差被邮箱服务器当垃圾邮件了？反正他们不急，我也不急，正好可以搞自己的东西，于是又来我儿子这里玩
-    
-    </summary>
-    
-      <category term="life" scheme="http://geeookliu.me/categories/life/"/>
-    
-    
-      <category term="生活" scheme="http://geeookliu.me/tags/%E7%94%9F%E6%B4%BB/"/>
-    
-      <category term="随笔" scheme="http://geeookliu.me/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
@@ -417,34 +273,6 @@
       <category term="计划" scheme="http://geeookliu.me/tags/%E8%AE%A1%E5%88%92/"/>
     
       <category term="学习之路" scheme="http://geeookliu.me/tags/%E5%AD%A6%E4%B9%A0%E4%B9%8B%E8%B7%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>今天开始,为时未晚</title>
-    <link href="http://geeookliu.me/posts/plan/2016-03-14-%E4%BB%8A%E5%A4%A9%E5%BC%80%E5%A7%8B-%E4%B8%BA%E6%97%B6%E6%9C%AA%E6%99%9A.html"/>
-    <id>http://geeookliu.me/posts/plan/2016-03-14-今天开始-为时未晚.html</id>
-    <published>2016-03-14T04:42:07.000Z</published>
-    <updated>2016-03-27T03:42:27.000Z</updated>
-    
-    <content type="html">&lt;p&gt;&amp;#8195;&amp;#8195;现在时间：2016年3月14号周一13：45。午休刚醒，多睡了30分钟，感觉精神好多了。这周的主要任务是调研，然而我一点干劲都没有，好想code，于是我鼓捣了一上午的hexo。我心中萌生了一些想法，就是坚持写blog。我长这么大，除了坚持吃饭睡觉（哦，不对，早上不吃饭，晚上不睡觉的情况也发生过），就没有坚持过一件事情，真这样的话，在老去之际，我一定会后悔的。&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&amp;#8195;&amp;#8195;看着同龄人甚至比自己小的人(96的Faker，97的柯洁和Greyson Chance)一个个都比自己厉害，那种被碾压的感觉连嫉妒都觉得差距太远，虽然我和他们不在一个领域，可是我也想成为一个很厉害的人啊！除了天赋，我和他们到底差了什么？直到有一天，我看到了关于Sky的成长历程，我才明白，原来只要一直做一件事情就会很厉害。既然我笨，那就以勤补拙吧。&lt;/p&gt;
-&lt;p&gt;&amp;#8195;&amp;#8195;从写博客开始。以此第一篇博客立志，每周至少一篇生活随笔，一篇学习总结。如果连这个都坚持不了，那就真的没治了。&lt;/p&gt;
-&lt;p&gt;&amp;#8195;&amp;#8195;今天开始，为时未晚！&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&amp;#8195;&amp;#8195;现在时间：2016年3月14号周一13：45。午休刚醒，多睡了30分钟，感觉精神好多了。这周的主要任务是调研，然而我一点干劲都没有，好想code，于是我鼓捣了一上午的hexo。我心中萌生了一些想法，就是坚持写blog。我长这么大，除了坚持吃饭睡觉（哦，不对，早上不吃饭，晚上不睡觉的情况也发生过），就没有坚持过一件事情，真这样的话，在老去之际，我一定会后悔的。
-    
-    </summary>
-    
-      <category term="plan" scheme="http://geeookliu.me/categories/plan/"/>
-    
-    
-      <category term="计划" scheme="http://geeookliu.me/tags/%E8%AE%A1%E5%88%92/"/>
-    
-      <category term="生活" scheme="http://geeookliu.me/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
